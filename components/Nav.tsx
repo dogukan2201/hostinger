@@ -1,43 +1,43 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
 
-import { redirect, usePathname } from 'next/navigation';
+import { redirect, usePathname } from "next/navigation";
 
 const links = [
   {
-    name: 'Home',
-    path: '/',
+    name: "Bloomya Pansiyon",
+    path: "/",
   },
   {
-    name: 'Restaurant',
-    path: '/',
+    name: "Odalarımız",
+    path: "/",
   },
   {
-    name: 'Pool',
-    path: '/',
+    name: "Fotoğraflarımız",
+    path: "/",
   },
   {
-    name: 'Best deals',
-    path: '/',
+    name: "Hakkımızda",
+    path: "/",
   },
   {
-    name: 'Contact',
-    path: '/',
+    name: "İletişim",
+    path: "/",
   },
 ];
 
-const Nav = ({ isUserAuthenticated }: { isUserAuthenticated: boolean }) => {
+const Nav = () => {
   const pathname = usePathname();
   return (
-    <nav>
-      <ul className='flex flex-col lg:flex-row gap-6'>
+    <nav className="flex  items-center">
+      <ul className="flex flex-col lg:flex-row gap-6 ">
         {links.map((link, index) => {
           return (
             <li key={index}>
               <Link
                 href={link.path}
-                className='font-bold text-[13px] uppercase tracking-[3px] hover:text-accent-hover transition-all'
+                className="font-bold text-[13px] uppercase tracking-[3px] hover:text-accent-hover transition-all"
               >
                 {link.name}
               </Link>
@@ -45,8 +45,6 @@ const Nav = ({ isUserAuthenticated }: { isUserAuthenticated: boolean }) => {
           );
         })}
       </ul>
-      {/* redirecting to the homepage if the user is not authenticated and pathname is "/dashboard" */}
-      {!isUserAuthenticated && pathname === '/dashboard' && redirect('/')}
     </nav>
   );
 };
