@@ -21,6 +21,11 @@ export function RoomDropdownMenu() {
         <DropdownMenuGroup>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
             <Link href="/rooms">
+              <span>Tüm Odalarımız</span>
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+            <Link href="/rooms">
               <span>Jakuzili Suite Oda</span>
             </Link>
           </DropdownMenuItem>
