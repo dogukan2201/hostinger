@@ -1,7 +1,9 @@
-"use client";
+
 
 import Link from "next/link";
 import { RoomDropdownMenu } from "@/components/Dropdown"; // Bileşeni içe aktardık
+import ChangeLanguage from "./ChangeLanguage";
+
 
 const links = [
   {
@@ -18,18 +20,19 @@ const links = [
   },
   {
     name: "Hakkımızda",
-    path: "/",
+    path: "/about",
   },
   {
     name: "İletişim",
-    path: "/",
+    path: "/contact",
   },
 ];
 
 const Nav = () => {
+  
   return (
     <nav className="flex items-center">
-      <ul className="flex flex-col lg:flex-row gap-6">
+      <ul className="flex flex-col justify-center items-center lg:flex-row gap-6">
         {links.map((link, index) => (
           <li key={index}>
             {link.name === "Odalarımız" ? (
@@ -37,13 +40,15 @@ const Nav = () => {
             ) : (
               <Link
                 href={link.path}
-                className="font-bold text-[13px] uppercase tracking-[3px] hover:text-accent-hover transition-all "
+                className={`font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all 
+                  `} 
               >
-                {link.name}
+                {(link.name)}
               </Link>
             )}
           </li>
         ))}
+        <ChangeLanguage/>
       </ul>
 
     </nav>

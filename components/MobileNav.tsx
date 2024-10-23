@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import Link from "next/link";
 
 import { FaBars } from "react-icons/fa";
+import ChangeLanguage from "./ChangeLanguage";
 
 const links = [
   {
@@ -32,9 +33,9 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className="text-2xl text-primary flex items-center">
-        <FaBars />
+        <FaBars className="" />
       </SheetTrigger>
-      <SheetContent side="left" className="flex justify-center items-center">
+      <SheetContent side="left" className="flex justify-center text-primary-hover items-center">
         <nav className="flex flex-col gap-8 text-center">
           {links.map((link, index) => {
             return (
@@ -47,6 +48,7 @@ const MobileNav = () => {
               </Link>
             );
           })}
+          <ChangeLanguage/>
         </nav>
       </SheetContent>
     </Sheet>
