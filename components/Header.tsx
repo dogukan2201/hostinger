@@ -29,17 +29,7 @@ const Header = async () => {
             <div className="w-[1px] h-[40px] bg-gray-300"></div>
             {/* social icons */}
             <div className="flex gap-2">
-              {socials.map((item, index) => {
-                return (
-                  <Link
-                    href={item.href}
-                    key={index}
-                    className="bg-accent text-white hover:bg-accent-hover text-sm w-[28px] h-[28px] flex items-center justify-center rounded-full transition-all"
-                  >
-                    {item.icon}
-                  </Link>
-                );
-              })}
+              <h1 className="text-primary font-bold space-x-1">Antaldalyadaki Eviniz</h1>
             </div>
           </div>
 

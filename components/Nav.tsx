@@ -14,7 +14,7 @@ const links = [
     path: "/",
   },
   {
-    name: "Fotoğraflarımız",
+    name: "Fotoğraf Galerisi",
     path: "/",
   },
   {
@@ -37,7 +37,7 @@ const Nav = () => {
             <li key={index}>
               <Link
                 href={link.path}
-                className="font-bold text-[13px] uppercase tracking-[3px] hover:text-accent-hover transition-all"
+                className="font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all"
               >
                 {link.name}
               </Link>
@@ -45,6 +45,7 @@ const Nav = () => {
           );
         })}
       </ul>
+
     </nav>
   );
 };

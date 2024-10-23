@@ -31,7 +31,7 @@ const config = {
           hover: "#F7C873",
         },
         secondary: {
-          DEFAULT: "#6b6a71",
+          DEFAULT: "#FAEBCD",
         },
         accent: {
           DEFAULT: "#434343",
