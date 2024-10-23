@@ -8,7 +8,10 @@ const Hero = () => {
           <h1 className="h1 text-white text-center max-w-[800px] mt-[120px] text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
             Bloomtalya Pansiyona Hoşgeldiniz
           </h1>
-          <Button size="lg" className="mt-8">
+          <Button
+            size="lg"
+            className="mt-8 bg-white text-accent hover:bg-accent hover:text-white transition-colors"
+          >
             Rezervasyon Yap
           </Button>
         </div>
