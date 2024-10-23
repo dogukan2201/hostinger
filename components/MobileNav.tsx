@@ -1,47 +1,47 @@
-'use client';
+"use client";
 
-import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
-import Link from 'next/link';
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import Link from "next/link";
 
-import { FaBars } from 'react-icons/fa';
+import { FaBars } from "react-icons/fa";
 
 const links = [
   {
-    name: 'Home',
-    path: '/',
+    name: "Bloomtalya Pansiyon",
+    path: "/",
   },
   {
-    name: 'Restaurant',
-    path: '/',
+    name: "Odalarımız",
+    path: "/",
   },
   {
-    name: 'Pool',
-    path: '/',
+    name: "Fotoğraflarımız",
+    path: "/",
   },
   {
-    name: 'Best deals',
-    path: '/',
+    name: "Hakkımızda",
+    path: "/",
   },
   {
-    name: 'Contact',
-    path: '/',
+    name: "İletişim",
+    path: "/",
   },
 ];
 
 const MobileNav = () => {
   return (
     <Sheet>
-      <SheetTrigger className='text-2xl text-primary flex items-center'>
+      <SheetTrigger className="text-2xl text-primary flex items-center">
         <FaBars />
       </SheetTrigger>
-      <SheetContent side='left' className='flex justify-center items-center'>
-        <nav className='flex flex-col gap-8 text-center'>
+      <SheetContent side="left" className="flex justify-center items-center">
+        <nav className="flex flex-col gap-8 text-center">
           {links.map((link, index) => {
             return (
               <Link
                 href={link.path}
                 key={index}
-                className='text-2xl font-primary text-primary hover:text-accent-hover transition-all'
+                className="text-2xl font-primary text-primary hover:text-accent-hover transition-all"
               >
                 {link.name}
               </Link>
