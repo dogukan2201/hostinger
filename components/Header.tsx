@@ -3,12 +3,7 @@ import Image from "next/image";
 
 import { FaYoutube, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
-const socials = [
-  { icon: <FaYoutube />, href: "#" },
-  { icon: <FaFacebook />, href: "#" },
-  { icon: <FaInstagram />, href: "#" },
-  { icon: <FaTwitter />, href: "#" },
-];
+
 
 // components
 
