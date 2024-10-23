@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-
-import { redirect, usePathname } from "next/navigation";
+import { RoomDropdownMenu } from "@/components/Dropdown"; // Bileşeni içe aktardık
 
 const links = [
   {
@@ -11,7 +10,7 @@ const links = [
   },
   {
     name: "Odalarımız",
-    path: "/",
+    path: "/rooms",
   },
   {
     name: "Fotoğraf Galerisi",
@@ -28,22 +27,23 @@ const links = [
 ];
 
 const Nav = () => {
-  const pathname = usePathname();
   return (
-    <nav className="flex  items-center">
-      <ul className="flex flex-col lg:flex-row gap-6 ">
-        {links.map((link, index) => {
-          return (
-            <li key={index}>
+    <nav className="flex items-center">
+      <ul className="flex flex-col lg:flex-row gap-6">
+        {links.map((link, index) => (
+          <li key={index}>
+            {link.name === "Odalarımız" ? (
+              <RoomDropdownMenu />
+            ) : (
               <Link
                 href={link.path}
-                className="font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all"
+                className="font-bold text-[13px] uppercase tracking-[3px] hover:text-accent-hover transition-all "
               >
                 {link.name}
               </Link>
-            </li>
-          );
-        })}
+            )}
+          </li>
+        ))}
       </ul>
 
     </nav>

@@ -9,7 +9,7 @@ const Hero = () => {
             Bloomtalya Pansiyona Hoşgeldiniz
           </h1>
           <Button size="lg" className="mt-8">
-            Randevu Al
+            Rezervasyon Yap
           </Button>
         </div>
       </div>

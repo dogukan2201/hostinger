@@ -3,12 +3,7 @@ import Image from "next/image";
 
 import { FaYoutube, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
-const socials = [
-  { icon: <FaYoutube />, href: "#" },
-  { icon: <FaFacebook />, href: "#" },
-  { icon: <FaInstagram />, href: "#" },
-  { icon: <FaTwitter />, href: "#" },
-];
+
 
 // components
 
@@ -17,7 +12,7 @@ import Nav from "./Nav";
 
 const Header = async () => {
   return (
-    <header className="py-6 shadow-md fixed top-0 left-0 right-0 z-10 bg-white">
+    <header className="py-6 shadow-md sticky top-0 left-0 right-0 z-10 bg-white">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between gap-6">
           {/* logo & social icons */}
