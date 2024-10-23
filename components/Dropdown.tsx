@@ -21,14 +21,20 @@ export function RoomDropdownMenu() {
         <DropdownMenuGroup>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
             <Link href="/rooms">
-              <span>Tüm Odalarımız</span>
+              <span>Jakuzili Suite Oda</span>
             </Link>
           </DropdownMenuItem>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <span>Single Room</span>
+            <span>Aile Odası</span>
           </DropdownMenuItem>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <span>Double Room</span>
+            <span>Standart Oda</span>
+          </DropdownMenuItem>
+          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+            <span>Ekonomik Oda</span>
+          </DropdownMenuItem>
+          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+            <span>Superior Standart Oda</span>
           </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>

@@ -7,35 +7,35 @@ const rooms = [
     id: 1,
     price: 10000,
     image: "/assets/oda.png",
-    info: "İlk odanın bilgileri",
+    info: "Jakuzili Suite Oda",
     maxGuests: 2,
   },
   {
     id: 2,
     price: 15000,
     image: "/assets/oda.png",
-    info: "İkinci odanın bilgileri",
+    info: "Aile Odası",
     maxGuests: 4,
   },
   {
     id: 3,
     price: 20000,
     image: "/assets/oda.png",
-    info: "Üçüncü odanın bilgileri",
+    info: "Standart Oda",
     maxGuests: 3,
   },
   {
     id: 4,
     price: 25000,
     image: "/assets/oda.png",
-    info: "Dördüncü odanın bilgileri",
+    info: "Ekonomik Oda",
     maxGuests: 2,
   },
   {
     id: 5,
     price: 30000,
     image: "/assets/oda.png",
-    info: "Beşinci odanın bilgileri",
+    info: "Superior Standart Oda",
     maxGuests: 5,
   },
 ];
@@ -62,23 +62,23 @@ const RoomDetails = async () => {
                 </Link>
               </div>
               <div className="flex flex-col mb-4">
-                <p className="text-2xl font-bold">{room.price}$</p>
-                <p className="h3 font-secondary font-medium text-accent">
-                  <span className="text-base text-secondary">/ night</span>
+                <p className="text-2xl font-bold">{room.info}</p>
+                <p className="text-2xl font-bold  w-52 ">
+                  {room.price}$ / Gecelik
                 </p>
-                <p>{room.info}</p>
+
                 <div className="flex items-center gap-8 mb-4">
-                  <div className="flex items-center gap-2">
-                    <div className="text-2xl text-accent">
-                      <TbArrowsMaximize />
-                    </div>
-                    <p>Maksimum Konuk: {room.maxGuests}</p>
-                  </div>
                   <div className="flex items-center gap-2">
                     <div className="text-2xl text-accent">
                       <TbUsers />
                     </div>
-                    <p>{room.maxGuests} konuk</p>
+                    <p>Kapasite: {room.maxGuests}</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="text-2xl text-accent">
+                      <TbArrowsMaximize />
+                    </div>
+                    <p>M2: 35sqm</p>
                   </div>
                   {/* reservation SAYFASINA ATILABİLR */}
                 </div>
