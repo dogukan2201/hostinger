@@ -1,102 +1,111 @@
 "use client";
-import {
-  Collapsible,
-  CollapsibleTrigger,
-  CollapsibleContent,
-} from "@/components/ui/collapsible";
-import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
-export default function Faq() {
+const Faq: React.FC = () => {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const toggleCollapse = (index: number) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-6 md:py-12 lg:py-24 max-h-screen overflow-y-auto">
       <div className="container px-4 grid gap-4 md:gap-6">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-            SSK
+          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
+            Sıkça Sorulan Sorular
           </h2>
-          <p className="text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-            Bir sorunuz mu var? Cevaplarımız da var. Başka sorularınız varsa
-            lütfen desteğe e-posta gönderin.
+          <p className="text-gray-500 text-lg leading-relaxed dark:text-gray-400">
+            Başka sorularınız varsa lütfen desteğe e-posta gönderin.
           </p>
         </div>
         <div className="space-y-4">
-          <Collapsible className="grid">
-            <CollapsibleTrigger asChild>
-              <Button
-                variant="primary"
-                className="w-full justify-start text-left font-semibold"
-              >
-                Can I upgrade my plan later
-              </Button>
-            </CollapsibleTrigger>
-            <CollapsibleContent asChild>
-              <p className="text-sm leading-loose text-gray-500 md:text-base dark:text-gray-400">
-                Yes. You can start or stop your plan at any time.
+          {/** İlk Soru **/}
+          <div>
+            <button
+              onClick={() => toggleCollapse(0)}
+              style={{ backgroundColor: "#434343", color: "white" }}
+              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+            >
+              Bloomtalya Hotel, tam geri ödeme için ücretsiz iptal imkânı
+              sunuyor mu?
+            </button>
+            {activeIndex === 0 && (
+              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
+                Evet, tamamen iade edilebilir odalar sunulmaktadır. İptal
+                şartlarını kontrol ettiğinizden emin olun.
               </p>
-            </CollapsibleContent>
-          </Collapsible>
-          <Collapsible className="grid">
-            <CollapsibleTrigger asChild>
-              <Button
-                variant="unstyled"
-                className="w-full justify-start text-left font-semibold"
-              >
-                Can I switch plans?
-              </Button>
-            </CollapsibleTrigger>
-            <CollapsibleContent asChild>
-              <p className="text-sm leading-loose text-gray-500 md:text-base dark:text-gray-400">
-                Yes. You can start or stop your plan at any time.
+            )}
+          </div>
+
+          {/** İkinci Soru **/}
+          <div>
+            <button
+              onClick={() => toggleCollapse(1)}
+              style={{ backgroundColor: "#434343", color: "white" }}
+              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+            >
+              Otopark imkânı var mı?
+            </button>
+            {activeIndex === 1 && (
+              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
+                Evet, ücretsiz valesiz otopark mevcuttur.
               </p>
-            </CollapsibleContent>
-          </Collapsible>
-          <Collapsible className="grid">
-            <CollapsibleTrigger asChild>
-              <Button
-                variant="unstyled"
-                className="w-full justify-start text-left font-semibold"
-              >
-                Do you offer a discount for non-profit
-              </Button>
-            </CollapsibleTrigger>
-            <CollapsibleContent asChild>
-              <p className="text-sm leading-loose text-gray-500 md:text-base dark:text-gray-400">
-                Yes. You can start or stop your plan at any time.
+            )}
+          </div>
+
+          {/** Üçüncü Soru **/}
+          <div>
+            <button
+              onClick={() => toggleCollapse(2)}
+              style={{ backgroundColor: "#434343", color: "white" }}
+              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+            >
+              Etrafındaki bölge nasıldır?
+            </button>
+            {activeIndex === 2 && (
+              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
+                Eski Çarşı ve Saat Kulesi'ne 17 dakikalık yürüyüş
+                mesafesindedir.
               </p>
-            </CollapsibleContent>
-          </Collapsible>
-          <Collapsible className="grid">
-            <CollapsibleTrigger asChild>
-              <Button
-                variant="unstyled"
-                className="w-full justify-start text-left font-semibold"
-              >
-                How secure is your service?
-              </Button>
-            </CollapsibleTrigger>
-            <CollapsibleContent asChild>
-              <p className="text-sm leading-loose text-gray-500 md:text-base dark:text-gray-400">
-                Yes. You can start or stop your plan at any time.
+            )}
+          </div>
+
+          {/** Dördüncü Soru **/}
+          <div>
+            <button
+              onClick={() => toggleCollapse(3)}
+              style={{ backgroundColor: "#434343", color: "white" }}
+              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+            >
+              Evcil hayvan kabul ediyor mu?
+            </button>
+            {activeIndex === 3 && (
+              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
+                Maalesef, evcil hayvanlar kabul edilmemektedir.
               </p>
-            </CollapsibleContent>
-          </Collapsible>
-          <Collapsible className="grid">
-            <CollapsibleTrigger asChild>
-              <Button
-                variant="unstyled"
-                className="w-full justify-start text-left font-semibold"
-              >
-                Can I cancel at any time?
-              </Button>
-            </CollapsibleTrigger>
-            <CollapsibleContent asChild>
-              <p className="text-sm leading-loose text-gray-500 md:text-base dark:text-gray-400">
-                Yes. You can start or stop your plan at any time.
+            )}
+          </div>
+
+          {/** Beşinci Soru **/}
+          <div>
+            <button
+              onClick={() => toggleCollapse(4)}
+              style={{ backgroundColor: "#434343", color: "white" }}
+              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+            >
+              Yakınlardaki imkânlar nelerdir?
+            </button>
+            {activeIndex === 4 && (
+              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
+                Bloomtalya Hotel bahçe sunmaktadır.
               </p>
-            </CollapsibleContent>
-          </Collapsible>
+            )}
+          </div>
         </div>
       </div>
     </section>
   );
-}
+};
+
+export default Faq;

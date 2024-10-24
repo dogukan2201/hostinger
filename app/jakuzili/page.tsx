@@ -29,10 +29,11 @@ export default function RoomDetailPage() {
       </Tabs>
       <div className="flex justify-between p-4 border-t">
         <div>
-          <p className="font-bold">$998,817.17 x Noche</p>
-          <p className="text-muted-foreground">7-14 Jul</p>
+          <h2 className="font-bold text-black  text-3xl">2000/Gecelik</h2>
         </div>
-        <Button className="bg-primary text-primary-foreground">Reservar</Button>
+        <Button className="bg-primary text-primary-foreground">
+          Reservasyon Yap
+        </Button>
       </div>
     </div>
   );
