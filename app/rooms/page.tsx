@@ -43,6 +43,9 @@ const rooms = [
 const RoomDetails = async () => {
   return (
     <section className="min-h-[80vh] ">
+      <head>
+        <title>Bloomtalya Pansiyon | Odalarımız</title>
+      </head>
       <div className="container mx-auto py-8">
         <div className="flex flex-col gap-8 h-full">
           {rooms.map((room) => (
