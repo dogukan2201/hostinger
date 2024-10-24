@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
-import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator } from '../ui/dropdown-menu';
-import { HiOutlineInformationCircle } from 'react-icons/hi';
-import { DropdownMenuLabel } from '@radix-ui/react-dropdown-menu';
-import { FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa';
+import React, { useState } from "react";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+} from "../ui/dropdown-menu";
+import { HiOutlineInformationCircle } from "react-icons/hi";
+import { DropdownMenuLabel } from "@radix-ui/react-dropdown-menu";
+import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 type Props = {};
 
@@ -14,9 +20,14 @@ export default function InfoDropdown({}: Props) {
           <HiOutlineInformationCircle size={24} />
         </DropdownMenuTrigger>
         <DropdownMenuContent className="mt-2 w-48 bg-white shadow-lg rounded-lg p-4">
-          <DropdownMenuLabel><span className='text-primary-hover font-bold'>Bloomya Pansiyon</span> | Antalyadaki Eviniz</DropdownMenuLabel>
+          <DropdownMenuLabel>
+            <span className="text-primary-hover font-bold">
+              Bloomtalya Pansiyon
+            </span>{" "}
+            | Antalyadaki Eviniz
+          </DropdownMenuLabel>
           <DropdownMenuSeparator />
-          <DropdownMenuItem className='hover:bg-green-500 hover:text-white transition duration-200'>
+          <DropdownMenuItem className="hover:bg-green-500 hover:text-white transition duration-200">
             <FaWhatsapp className="text-green-500" />
             <a
               href="https://wa.me/+905055343030"

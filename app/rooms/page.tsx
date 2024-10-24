@@ -4,7 +4,7 @@ import Link from "next/link";
 // Oda bilgileri
 const rooms = [
   {
-    id: 1,
+    id: "jakuzili",
     price: 10000,
     image: "/assets/oda.png",
     info: "Jakuzili Suite Oda",
@@ -42,7 +42,7 @@ const rooms = [
 
 const RoomDetails = async () => {
   return (
-    <section className="min-h-[80vh] ">
+    <section className="min-h-[80vh] w-full md:w-2/3 mx-auto text-accent">
       <div className="container mx-auto py-8">
         <div className="flex flex-col gap-8 h-full">
           {rooms.map((room) => (
@@ -51,7 +51,7 @@ const RoomDetails = async () => {
               className="flex flex-col mb-8 border p-4 rounded-lg shadow-md"
             >
               <div className="relative w-full h-[420px] mb-4 overflow-hidden">
-                <Link href={`/room/${room.id}`} passHref>
+                <Link href={`/${room.id}`} passHref>
                   <button className="relative w-full h-[420px] mb-4 overflow-hidden">
                     <img
                       src={room.image}

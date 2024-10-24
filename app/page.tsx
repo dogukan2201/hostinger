@@ -1,3 +1,4 @@
+import Faq from "@/components/faq";
 import Hero from "@/components/Hero";
 import { Photoslide } from "@/components/Photoslide";
 
@@ -7,6 +8,7 @@ const Home = () => {
   return (
     <main>
       <Hero />
+      <Faq />
       <Photoslide />
       <Rooms />
     </main>

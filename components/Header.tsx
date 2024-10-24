@@ -3,8 +3,6 @@ import Image from "next/image";
 
 import { FaYoutube, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
-
-
 // components
 
 import MobileNav from "./MobileNav";
@@ -24,7 +22,9 @@ const Header = async () => {
             <div className="w-[1px] h-[40px] bg-gray-300"></div>
             {/* social icons */}
             <div className="flex gap-2">
-              <h1 className="text-primary font-bold space-x-1">Antaldalyadaki Eviniz</h1>
+              <h1 className="text-primary font-bold space-x-1">
+                Antaldalyadaki Eviniz
+              </h1>
             </div>
           </div>
 

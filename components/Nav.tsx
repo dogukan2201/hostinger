@@ -5,7 +5,7 @@ import { RoomDropdownMenu } from "@/components/Dropdown"; // Bileşeni içe akta
 
 const links = [
   {
-    name: "Bloomya Pansiyon",
+    name: "Bloomtalya Pansiyon",
     path: "/",
   },
   {
@@ -14,15 +14,15 @@ const links = [
   },
   {
     name: "Fotoğraf Galerisi",
-    path: "/",
+    path: "/fotograflar",
   },
   {
     name: "Hakkımızda",
-    path: "/",
+    path: "/hakkımızda",
   },
   {
     name: "İletişim",
-    path: "/",
+    path: "/iletisim",
   },
 ];
 
