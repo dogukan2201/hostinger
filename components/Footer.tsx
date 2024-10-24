@@ -36,9 +36,9 @@ const contacts = [
 
 const Footer = () => {
   return (
-    <footer className="bg-primary py-12 lg:py-16">
-      <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
+    <footer className='bg-primary py-12 lg:py-16 font-secondary'>
+      <div className='container mx-auto'>
+        <div className='flex flex-col lg:flex-row justify-between items-center gap-10'>
           {/* Logo */}
           <div className="flex flex-col justify-center items-center lg:items-start h-full text-center lg:text-left">
             <Link href="/">
@@ -56,11 +56,9 @@ const Footer = () => {
           </div>
 
           {/* Sosyal Medya */}
-          <div className="flex flex-col justify-center items-center lg:items-start">
-            <h2 className="text-secondary font-bold text-2xl mb-2">
-              Bizi Takip Edin
-            </h2>
-            <div className="flex gap-4 justify-center items-center">
+          <div className='flex flex-col justify-center items-center lg:items-start'>
+            <h2 className='text-secondary font-bold text-2xl mb-2 font-secondary'>Bizi Takip Edin</h2>
+            <div className='flex gap-4 justify-center items-center'>
               {socials.map((item, index) => (
                 <Link
                   href={item.href}
@@ -74,9 +72,9 @@ const Footer = () => {
           </div>
 
           {/* İletişim */}
-          <div className="flex flex-col items-center lg:items-start">
-            <h2 className="text-secondary font-bold text-2xl mb-2">İletişim</h2>
-            <ul className="flex flex-col gap-y-4">
+          <div className='flex flex-col items-center lg:items-start'>
+            <h2 className='text-secondary font-bold text-2xl mb-2 font-secondary'>İletişim</h2>
+            <ul className='flex flex-col gap-y-4'>
               {contacts.map((contact, index) => (
                 <li key={index} className="flex items-center gap-3">
                   {contact.icon}
@@ -87,10 +85,8 @@ const Footer = () => {
           </div>
 
           {/* Lokasyon */}
-          <div className="flex flex-col items-center lg:items-start">
-            <h2 className="text-secondary font-bold text-2xl mb-2">
-              Biz Neredeyiz?
-            </h2>
+          <div className='flex flex-col items-center lg:items-start'>
+            <h2 className='text-secondary font-bold text-2xl mb-2 font-secondary'>Biz Neredeyiz?</h2>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12763.881628735242!2d30.719381!3d36.8910562!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c385d812af8459%3A0xe896ff1b01cc918!2sBloomtalya%20Hotel!5e0!3m2!1str!2str!4v1729680880354!5m2!1str!2str"
               width="300"
