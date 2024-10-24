@@ -4,8 +4,6 @@ import Image from "next/image";
 
 import { FaYoutube, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
-
-
 // components
 
 import MobileNav from "./MobileNav";

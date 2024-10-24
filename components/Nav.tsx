@@ -7,7 +7,7 @@ import ChangeLanguage from "./ChangeLanguage";
 
 const links = [
   {
-    name: "Bloomya Pansiyon",
+    name: "Bloomtalya Pansiyon",
     path: "/",
   },
   {
@@ -16,7 +16,7 @@ const links = [
   },
   {
     name: "Fotoğraf Galerisi",
-    path: "/",
+    path: "/fotograflar",
   },
   {
     name: "Hakkımızda",
@@ -50,7 +50,6 @@ const Nav = () => {
         ))}
         <ChangeLanguage/>
       </ul>
-
     </nav>
   );
 };

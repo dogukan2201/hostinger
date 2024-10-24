@@ -1,31 +1,36 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaFacebook, FaInstagram, FaPhone, FaLocationArrow } from 'react-icons/fa';
+import Image from "next/image";
+import Link from "next/link";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaPhone,
+  FaLocationArrow,
+} from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
 const socials = [
   {
     icon: <FaFacebook />,
-    href: 'https://www.facebook.com/people/Bloomtalyahotel/100093439436277/',
+    href: "https://www.facebook.com/people/Bloomtalyahotel/100093439436277/",
   },
   {
     icon: <FaInstagram />,
-    href: 'https://www.instagram.com/bloomtalyahotel/',
+    href: "https://www.instagram.com/bloomtalyahotel/",
   },
 ];
 
 const contacts = [
   {
-    icon: <FaLocationArrow className='text-primary-hover' />,
-    text: 'Kızıltoprak, 902. Sk. No: 2 İç Kapı No:1, 07300 Muratpaşa/Antalya',
+    icon: <FaLocationArrow className="text-primary-hover" />,
+    text: "Kızıltoprak, 902. Sk. No: 2 İç Kapı No:1, 07300 Muratpaşa/Antalya",
   },
   {
-    icon: <FaPhone className='text-primary-hover' />,
-    text: '05055343030',
+    icon: <FaPhone className="text-primary-hover" />,
+    text: "05055343030",
   },
   {
-    icon: <IoMail className='text-primary-hover' />,
-    text: 'reservation@bloomtalyahotel.com.tr',
+    icon: <IoMail className="text-primary-hover" />,
+    text: "reservation@bloomtalyahotel.com.tr",
   },
 ];
 
@@ -35,17 +40,18 @@ const Footer = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between items-center gap-10'>
           {/* Logo */}
-          <div className='flex flex-col justify-center items-center lg:items-start h-full text-center lg:text-left'>
-            <Link href='/'>
+          <div className="flex flex-col justify-center items-center lg:items-start h-full text-center lg:text-left">
+            <Link href="/">
               <Image
-                src='/assets/logo-white.svg'
+                src="/assets/logo-white.svg"
                 width={160}
                 height={160}
-                alt='Logo'
+                alt="Logo"
               />
             </Link>
-            <p className='text-white mt-4'>
-              &copy; {new Date().getFullYear()} Bloomya Pansiyon Tüm Hakları Saklıdır
+            <p className="text-white mt-4">
+              &copy; {new Date().getFullYear()} Bloomtalya Pansiyon Tüm Hakları
+              Saklıdır
             </p>
           </div>
 
@@ -57,7 +63,7 @@ const Footer = () => {
                 <Link
                   href={item.href}
                   key={index}
-                  className='bg-accent hover:bg-accent-hover text-white text-lg w-[38px] h-[38px] flex items-center justify-center rounded-full transition-all'
+                  className="bg-accent hover:bg-accent-hover text-white text-lg w-[38px] h-[38px] flex items-center justify-center rounded-full transition-all"
                 >
                   {item.icon}
                 </Link>
@@ -70,9 +76,9 @@ const Footer = () => {
             <h2 className='text-secondary font-bold text-2xl mb-2 font-secondary'>İletişim</h2>
             <ul className='flex flex-col gap-y-4'>
               {contacts.map((contact, index) => (
-                <li key={index} className='flex items-center gap-3'>
+                <li key={index} className="flex items-center gap-3">
                   {contact.icon}
-                  <p className='text-gray-50'>{contact.text}</p>
+                  <p className="text-gray-50">{contact.text}</p>
                 </li>
               ))}
             </ul>

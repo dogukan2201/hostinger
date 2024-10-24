@@ -5,7 +5,6 @@ import {
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
@@ -25,21 +24,29 @@ export function RoomDropdownMenu() {
             </Link>
           </DropdownMenuItem>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <Link href="/rooms">
+            <Link href="/jakuzili">
               <span>Jakuzili Suite Oda</span>
             </Link>
           </DropdownMenuItem>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <span>Aile Odası</span>
+            <Link href="/rooms/aile-odasi">
+              <span>Aile Odası</span>
+            </Link>
           </DropdownMenuItem>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <span>Standart Oda</span>
+            <Link href="/rooms/standart-oda">
+              <span>Standart Oda</span>
+            </Link>
           </DropdownMenuItem>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <span>Ekonomik Oda</span>
+            <Link href="/rooms/ekonomik-oda">
+              <span>Ekonomik Oda</span>
+            </Link>
           </DropdownMenuItem>
           <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <span>Superior Standart Oda</span>
+            <Link href="/rooms/superior-standart-oda">
+              <span>Superior Standart Oda</span>
+            </Link>
           </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>
