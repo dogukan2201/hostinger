@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { Marcellus, Urbanist } from "next/font/google";
 import Head from "next/head";
@@ -26,11 +25,11 @@ export const metadata: Metadata = {
   title: "Bloomtalya Pansiyon",
   description: "Bloomtalya otel",
   icons: {
-    icon: "/assets/heading-icon.svg",
+    icon: "/assets/bloomtalya.png",
   },
 };
 
- function RootLayout({
+function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -39,12 +38,15 @@ export const metadata: Metadata = {
     <html lang="en">
       <Head>
         <meta name="description" content="Bloomtalya otel" />
-        <meta name="keywords" content="Bloomtayla Pansiyon, antalya otel, antalya otel, antalya pansiyon" />
+        <meta
+          name="keywords"
+          content="Bloomtayla Pansiyon, antalya otel, antalya otel, antalya pansiyon"
+        />
       </Head>
       <body className={`${marcellus.variable} ${urbanist.variable}`}>
         <Header />
         {children}
-        <InfoDropdown/>
+        <InfoDropdown />
         <Footer />
       </body>
     </html>

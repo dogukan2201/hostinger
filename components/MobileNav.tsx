@@ -13,7 +13,7 @@ const links = [
   },
   {
     name: "Odalarımız",
-    path: "/",
+    path: "/rooms",
   },
   {
     name: "Fotoğraflarımız",
@@ -21,21 +21,24 @@ const links = [
   },
   {
     name: "Hakkımızda",
-    path: "/",
+    path: "/about",
   },
   {
     name: "İletişim",
-    path: "/",
+    path: "/contact",
   },
 ];
 
 const MobileNav = () => {
   return (
     <Sheet>
-      <SheetTrigger className="text-2xl text-primary flex items-center">
+      <SheetTrigger className="text-2xl text-white flex items-center">
         <FaBars className="" />
       </SheetTrigger>
-      <SheetContent side="left" className="flex justify-center text-primary-hover items-center">
+      <SheetContent
+        side="left"
+        className="flex justify-center text-primary-hover items-center"
+      >
         <nav className="flex flex-col gap-8 text-center">
           {links.map((link, index) => {
             return (
@@ -48,7 +51,7 @@ const MobileNav = () => {
               </Link>
             );
           })}
-          <ChangeLanguage/>
+          <ChangeLanguage />
         </nav>
       </SheetContent>
     </Sheet>
