@@ -17,7 +17,7 @@ const links = [
   },
   {
     name: "Fotoğraflarımız",
-    path: "/",
+    path: "/gallery",
   },
   {
     name: "Hakkımızda",

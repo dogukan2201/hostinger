@@ -49,15 +49,15 @@ const Footer = () => {
                 alt="Logo"
               />
             </Link>
-            <p className="text-white mt-4">
+            <h1 className="text-white mt-4">
               &copy; {new Date().getFullYear()} Bloomtalya Pansiyon Tüm Hakları
               Saklıdır
-            </p>
+            </h1>
           </div>
 
           {/* Sosyal Medya */}
           <div className="flex flex-col justify-center items-center lg:items-start">
-            <h2 className="text-secondary font-bold text-2xl mb-2 font-secondary">
+            <h2 className="text-secondary font-bold text-2xl mb-2 font-primary">
               Bizi Takip Edin
             </h2>
             <div className="flex gap-4 justify-center items-center">
@@ -75,24 +75,24 @@ const Footer = () => {
 
           {/* İletişim */}
           <div className="flex flex-col items-center lg:items-start">
-            <h2 className="text-secondary font-bold text-2xl mb-2 font-secondary">
+            <h2 className="text-secondary font-bold text-2xl mb-2 font-primary">
               İletişim
             </h2>
             <ul className="flex flex-col gap-y-4">
               {contacts.map((contact, index) => (
                 <li key={index} className="flex items-center gap-3">
                   {contact.icon}
-                  <p className="text-gray-50">{contact.text}</p>
+                  <h1 className="text-gray-50">{contact.text}</h1>
                 </li>
               ))}
             </ul>
           </div>
 
           {/* Lokasyon */}
-          <div className="flex flex-col items-center lg:items-start">
-            <h2 className="text-secondary font-bold text-2xl mb-2 font-secondary">
+          <div className="flex flex-col items-center lg:items-start font-primary">
+            <h1 className="text-secondary font-bold text-2xl mb-2 ">
               Biz Neredeyiz?
-            </h2>
+            </h1>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12763.881628735242!2d30.719381!3d36.8910562!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c385d812af8459%3A0xe896ff1b01cc918!2sBloomtalya%20pansiyon!5e0!3m2!1str!2str!4v1729680880354!5m2!1str!2str"
               width="300"

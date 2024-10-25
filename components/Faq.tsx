@@ -24,7 +24,7 @@ const Faq: React.FC = () => {
             <button
               onClick={() => toggleCollapse(0)}
               style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
               Bloomtalya Pansiyon, tam geri ödeme için ücretsiz iptal imkânı
               sunuyor mu?
@@ -41,7 +41,7 @@ const Faq: React.FC = () => {
             <button
               onClick={() => toggleCollapse(1)}
               style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
               Otopark imkânı var mı?
             </button>
@@ -56,13 +56,13 @@ const Faq: React.FC = () => {
             <button
               onClick={() => toggleCollapse(2)}
               style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
               Etrafındaki bölge nasıldır?
             </button>
             {activeIndex === 2 && (
               <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                Eski Çarşı ve Saat Kulesi'ne 17 dakikalık yürüyüş
+                Eski Çarşı ve Saat Kulesi&apos;ne 17 dakikalık yürüyüş
                 mesafesindedir.
               </p>
             )}
@@ -72,7 +72,7 @@ const Faq: React.FC = () => {
             <button
               onClick={() => toggleCollapse(3)}
               style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
               Evcil hayvan kabul ediyor mu?
             </button>
@@ -87,7 +87,7 @@ const Faq: React.FC = () => {
             <button
               onClick={() => toggleCollapse(4)}
               style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
+              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
               Yakınlardaki imkânlar nelerdir?
             </button>

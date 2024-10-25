@@ -6,28 +6,28 @@ import { useState } from "react";
 
 const rooms = [
   {
-    id: "jakuzili",
+    id: "jacuzziRoom",
     price: 10000,
     image: "/jakuziPhoto/jakuzi3.jpg",
     info: "Jakuzili Suite Oda",
     maxGuests: 2,
   },
   {
-    id: "aile",
+    id: "familyRoom",
     price: 15000,
     image: "/ailePhoto/aileOdası.jpg",
     info: "Aile Odası",
     maxGuests: 4,
   },
   {
-    id: "standart",
+    id: "standardRoom",
     price: 20000,
     image: "/standartPhoto/standart1.jpg",
     info: "Standart Oda",
     maxGuests: 3,
   },
   {
-    id: "ekonomik",
+    id: "economicalRoom",
     price: 25000,
     image: "/ekonomikPhoto/ekonomik1.jpeg",
     info: "Ekonomik Oda",

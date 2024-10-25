@@ -1,9 +1,6 @@
-
-
 import Link from "next/link";
 import { RoomDropdownMenu } from "@/components/Dropdown"; // Bileşeni içe aktardık
 import ChangeLanguage from "./ChangeLanguage";
-
 
 const links = [
   {
@@ -16,7 +13,7 @@ const links = [
   },
   {
     name: "Fotoğraf Galerisi",
-    path: "/fotograflar",
+    path: "/gallery",
   },
   {
     name: "Hakkımızda",
@@ -29,7 +26,6 @@ const links = [
 ];
 
 const Nav = () => {
-  
   return (
     <nav className="flex items-center">
       <ul className="flex flex-col justify-center items-center lg:flex-row gap-6">
@@ -41,14 +37,14 @@ const Nav = () => {
               <Link
                 href={link.path}
                 className={`font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all 
-                  `} 
+                  `}
               >
-                {(link.name)}
+                {link.name}
               </Link>
             )}
           </li>
         ))}
-        <ChangeLanguage/>
+        <ChangeLanguage />
       </ul>
     </nav>
   );

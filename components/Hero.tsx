@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container mx-auto h-full flex justify-center items-center">
         <div className="flex flex-col items-center justify-center">
           <h1 className="h1 text-white text-center max-w-[800px] mt-[120px] text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
-            Bloomtalya Pansiyona Hoşgeldiniz
+            BLOOMTALYA PANSİYONA HOŞGELDİNİZ
           </h1>
           <Button
             size="lg"

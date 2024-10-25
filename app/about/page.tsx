@@ -13,18 +13,25 @@ export default function About({}: Props) {
       </head>
       <Banner title="Hakkımızda" />
       <div className="w-fulll px-4 py-8 text-center flex flex-col justify-center">
-        <h2 className="text-2xl md:text-4xl font-bold mb-4 font-secondary">
-          Biz Kimiz
+        <h2 className="text-2xl md:text-4xl font-bold mb-4 font-primary">
+          》Biz Kimiz《
         </h2>
         <p className="text-base text-primary md:text-lg leading-relaxed">
-          2023 yılında yeni açtığımız Bloomtalya Pansiyon siz değerli
-          misafirlerimizi ağırlamaktan mutluluk duyuyoruz.
+          2023 yılında hizmete açtığımız Bloomtalya Pansiyon,
+          <br /> Antalya’nın en güzel konumlarından birinde siz değerli
+          misafirlerimizi ağırlamaktan mutluluk duyuyor.
+          <br /> Modern mimariyle tasarlanan ve her detayı özenle düşünülmüş
+          odalarımız,
+          <br /> en yüksek kalite standartlarıyla donatılmış olup, rahatınız
+          için her ayrıntı titizlikle sunulmaktadır.
           <br />
-          Yeni açılan otelimizde tüm odalarımız her şeyi son kalite ile hizmet
-          vermekteyiz.
-          <br />
-          Antalya merkezde yer alan otelimiz, büyük cazibe ve gezi merkezlerine
-          çok yakındır. Muhteşem Kale İçi’ne 15 dk. uzaklıktadır.
+          Antalya’nın merkezinde yer alan otelimiz, <br />
+          büyüleyici Kaleiçi bölgesi de dahil olmak üzere şehrin önemli cazibe
+          merkezlerine kolay erişim sağlar.
+          <br /> Tarihi Kaleiçi’ne yalnızca 15 dakikalık bir yürüyüş mesafesinde
+          olan Bloomtalya Pansiyon, <br />
+          Antalya’nın sunduğu güzellikleri keşfetmeniz için ideal bir başlangıç
+          noktasıdır.
         </p>
       </div>
     </div>

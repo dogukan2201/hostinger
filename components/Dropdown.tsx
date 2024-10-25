@@ -12,42 +12,42 @@ export function RoomDropdownMenu() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all">
+        <button className="font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all border-none outline-none focus:outline-none">
           Odalarımız
         </button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuGroup>
-          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <Link href="/rooms">
-              <span>Tüm Odalarımız</span>
-            </Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <Link href="/jakuzili">
-              <span>Jakuzili Suite Oda</span>
-            </Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <Link href="/rooms/aile-odasi">
-              <span>Aile Odası</span>
-            </Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <Link href="/rooms/standart-oda">
-              <span>Standart Oda</span>
-            </Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <Link href="/rooms/ekonomik-oda">
-              <span>Ekonomik Oda</span>
-            </Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
-            <Link href="/rooms/superior-standart-oda">
-              <span>Superior Standart Oda</span>
-            </Link>
-          </DropdownMenuItem>
+          <Link href="/rooms">
+            <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+              <span className="font-primary">Tüm Odalarımız</span>
+            </DropdownMenuItem>
+          </Link>
+          <Link href="/jacuzziRoom">
+            <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+              <span className="font-primary">Jakuzili Suite Oda</span>
+            </DropdownMenuItem>
+          </Link>
+          <Link href="/familyRoom">
+            <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+              <span className="font-primary">Aile Odası</span>
+            </DropdownMenuItem>
+          </Link>
+          <Link href="/standardRoom">
+            <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+              <span className="font-primary">Standart Oda</span>
+            </DropdownMenuItem>
+          </Link>
+          <Link href="/economicalRoom">
+            <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+              <span className="font-primary">Ekonomik Oda</span>
+            </DropdownMenuItem>
+          </Link>
+          <Link href="/superiorRoom">
+            <DropdownMenuItem className="text-gray-600 hover:text-accent transition-colors">
+              <span className="font-primary">Superior Standart Oda</span>
+            </DropdownMenuItem>
+          </Link>
         </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>

@@ -12,7 +12,7 @@ const Header = () => {
       className="py-6 shadow-md sticky top-0 left-0 right-0 z-10"
       style={{ backgroundColor: "#434343" }}
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto font-primary">
         <div className="flex flex-col md:flex-row md:justify-between gap-6">
           <div className="flex items-center gap-5 justify-center xl:w-max">
             <Link href="/">
