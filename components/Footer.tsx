@@ -11,11 +11,11 @@ import { IoMail } from "react-icons/io5";
 const socials = [
   {
     icon: <FaFacebook />,
-    href: "https://www.facebook.com/people/Bloomtalyahotel/100093439436277/",
+    href: "https://www.facebook.com/people/Bloomtalyapansiyon/100093439436277/",
   },
   {
     icon: <FaInstagram />,
-    href: "https://www.instagram.com/bloomtalyahotel/",
+    href: "https://www.instagram.com/bloomtalyapansiyon/",
   },
 ];
 
@@ -30,7 +30,7 @@ const contacts = [
   },
   {
     icon: <IoMail className="text-primary-hover" />,
-    text: "reservation@bloomtalyahotel.com.tr",
+    text: "reservation@bloomtalyapansiyon.com.tr",
   },
 ];
 
@@ -94,7 +94,7 @@ const Footer = () => {
               Biz Neredeyiz?
             </h2>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12763.881628735242!2d30.719381!3d36.8910562!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c385d812af8459%3A0xe896ff1b01cc918!2sBloomtalya%20Hotel!5e0!3m2!1str!2str!4v1729680880354!5m2!1str!2str"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12763.881628735242!2d30.719381!3d36.8910562!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c385d812af8459%3A0xe896ff1b01cc918!2sBloomtalya%20pansiyon!5e0!3m2!1str!2str!4v1729680880354!5m2!1str!2str"
               width="300"
               height="250"
               style={{ border: 0 }}

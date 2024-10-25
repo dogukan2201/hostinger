@@ -20,14 +20,13 @@ const Faq: React.FC = () => {
           </p>
         </div>
         <div className="space-y-4">
-          {/** İlk Soru **/}
           <div>
             <button
               onClick={() => toggleCollapse(0)}
               style={{ backgroundColor: "#434343", color: "white" }}
               className="w-full justify-start text-left font-semibold text-sm md:text-base  p-2 rounded"
             >
-              Bloomtalya Hotel, tam geri ödeme için ücretsiz iptal imkânı
+              Bloomtalya Pansiyon, tam geri ödeme için ücretsiz iptal imkânı
               sunuyor mu?
             </button>
             {activeIndex === 0 && (
@@ -38,7 +37,6 @@ const Faq: React.FC = () => {
             )}
           </div>
 
-          {/** İkinci Soru **/}
           <div>
             <button
               onClick={() => toggleCollapse(1)}
@@ -54,7 +52,6 @@ const Faq: React.FC = () => {
             )}
           </div>
 
-          {/** Üçüncü Soru **/}
           <div>
             <button
               onClick={() => toggleCollapse(2)}
@@ -71,7 +68,6 @@ const Faq: React.FC = () => {
             )}
           </div>
 
-          {/** Dördüncü Soru **/}
           <div>
             <button
               onClick={() => toggleCollapse(3)}
@@ -87,7 +83,6 @@ const Faq: React.FC = () => {
             )}
           </div>
 
-          {/** Beşinci Soru **/}
           <div>
             <button
               onClick={() => toggleCollapse(4)}
@@ -98,7 +93,7 @@ const Faq: React.FC = () => {
             </button>
             {activeIndex === 4 && (
               <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                Bloomtalya Hotel bahçe sunmaktadır.
+                Bloomtalya Pansiyon bahçe sunmaktadır.
               </p>
             )}
           </div>

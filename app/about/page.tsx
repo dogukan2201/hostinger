@@ -17,7 +17,7 @@ export default function About({}: Props) {
           Biz Kimiz
         </h2>
         <p className="text-base text-primary md:text-lg leading-relaxed">
-          2023 yılında yeni açtığımız Bloomtalya Antalya Hotelimizde siz değerli
+          2023 yılında yeni açtığımız Bloomtalya Pansiyon siz değerli
           misafirlerimizi ağırlamaktan mutluluk duyuyoruz.
           <br />
           Yeni açılan otelimizde tüm odalarımız her şeyi son kalite ile hizmet

@@ -12,7 +12,7 @@ export function RoomDropdownMenu() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all" >
+        <button className="font-bold text-[13px] uppercase tracking-[3px] text-primary-hover hover:text-secondary transition-all">
           Odalarımız
         </button>
       </DropdownMenuTrigger>
