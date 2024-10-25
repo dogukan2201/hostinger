@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Marcellus, Urbanist } from "next/font/google";
 import Head from "next/head";
+import {NextIntlClientProvider} from 'next-intl';
+import {getLocale, getMessages} from 'next-intl/server';
 
 import "./globals.css";
 
@@ -29,13 +31,18 @@ export const metadata: Metadata = {
   },
 };
 
-function RootLayout({
+ async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+ 
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages();
   return (
-    <html lang="en">
+    <html lang={locale}>
       <Head>
         <meta name="description" content="Bloomtalya otel" />
         <meta
@@ -44,10 +51,12 @@ function RootLayout({
         />
       </Head>
       <body className={`${marcellus.variable} ${urbanist.variable}`}>
+      <NextIntlClientProvider messages={messages}>
         <Header />
         {children}
         <InfoDropdown />
         <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
