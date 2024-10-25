@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { RoomDropdownMenu } from "@/components/Dropdown"; // Bileşeni içe aktardık
 import ChangeLanguage from "./ChangeLanguage";
+import { useTranslations } from "next-intl";
 
 const links = [
   {

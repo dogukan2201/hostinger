@@ -5,8 +5,14 @@ import Image from "next/image";
 // components
 import MobileNav from "./MobileNav";
 import Nav from "./Nav";
+import { useTranslations } from "next-intl";
 
-const Header = () => {
+
+
+
+
+const Header =  () => {
+  const t= useTranslations("Navbar")
   return (
     <header
       className="py-6 shadow-md sticky top-0 left-0 right-0 z-10"
@@ -25,9 +31,7 @@ const Header = () => {
             </Link>
             <div className="w-[1px] h-[40px] bg-gray-300"></div>
             <div className="flex gap-2">
-              <h1 className="text-white font-bold space-x-1">
-                Antalyadaki Eviniz
-              </h1>
+              <h1 className="text-white font-bold space-x-1">{t("title")}</h1>
             </div>
           </div>
           <div className="xl:hidden">
