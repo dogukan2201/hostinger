@@ -1,8 +1,9 @@
 "use client";
+
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-const Faq: React.FC = () => {
+export default function Component() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const t = useTranslations("Faq");
 
@@ -11,95 +12,36 @@ const Faq: React.FC = () => {
   };
 
   return (
-    <section className="w-full py-6 md:py-12 lg:py-24 max-h-screen overflow-y-auto">
-      <div className="container px-4 grid gap-4 md:gap-6">
-        <div className="space-y-2">
+    <section className="w-full py-6 md:py-12 lg:py-24 flex justify-center items-start">
+      <div className="container px-4 max-w-3xl mx-auto">
+        <div className="space-y-2 mb-8 text-center">
           <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-            {t("title")}
+            》{t("title")}《
           </h2>
-          <p className="text-gray-500 text-lg leading-relaxed dark:text-gray-400">
+          <p className="text-muted-foreground text-lg text-primary">
             {t("description")}
           </p>
         </div>
         <div className="space-y-4">
-          <div>
-            <button
-              onClick={() => toggleCollapse(0)}
-              style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
-            >
-              {t("q1")}
-            </button>
-            {activeIndex === 0 && (
-              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                {t("a1")}
-              </p>
-            )}
-          </div>
-
-          <div>
-            <button
-              onClick={() => toggleCollapse(1)}
-              style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
-            >
-              {t("q2")}
-            </button>
-            {activeIndex === 1 && (
-              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                {t("a2")}
-              </p>
-            )}
-          </div>
-
-          <div>
-            <button
-              onClick={() => toggleCollapse(2)}
-              style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
-            >
-              {t("q3")}
-            </button>
-            {activeIndex === 2 && (
-              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                {t("a3")}
-              </p>
-            )}
-          </div>
-
-          <div>
-            <button
-              onClick={() => toggleCollapse(3)}
-              style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
-            >
-              {t("q4")}
-            </button>
-            {activeIndex === 3 && (
-              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                {t("a4")}
-              </p>
-            )}
-          </div>
-
-          <div>
-            <button
-              onClick={() => toggleCollapse(4)}
-              style={{ backgroundColor: "#434343", color: "white" }}
-              className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
-            >
-              {t("q5")}
-            </button>
-            {activeIndex === 4 && (
-              <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                {t("a5")}
-              </p>
-            )}
-          </div>
+          {[0, 1, 2, 3, 4].map((index) => (
+            <div key={index} className="border rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleCollapse(index)}
+                className="w-full justify-start text-left font-semibold p-4 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                {t(`q${index + 1}`)}
+              </button>
+              {activeIndex === index && (
+                <div className="p-4 bg-background">
+                  <p className="text-muted-foreground text-primary">
+                    {t(`a${index + 1}`)}
+                  </p>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
-};
-
-export default Faq;
+}
