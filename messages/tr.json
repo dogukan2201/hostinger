@@ -4,7 +4,7 @@
     "home": "Bloomtalya Pansiyon",
     "about": "Hakkında",
     "gallery": "Galeri",
-    "rooms": "Odalar",
+    "roomss": "Odalarımız",
     "contact": "İletişim"
   },
   "Hero": {
@@ -81,5 +81,14 @@
     "contact": "İletişim",
     "location": "Biz Neredeyiz?",
     "rights": "Tüm Hakları Saklıdır"
+  },
+  "Dropdown": {
+    "ourRooms": "Odalarımız",
+    "allRooms": "Tüm Odalarımız",
+    "jacuzziRoom": "Jakuzili Suite Oda",
+    "familyRoom": "Aile Odası",
+    "standardRoom": "Standart Oda",
+    "economicalRoom": "Ekonomik Oda",
+    "superiorRoom": "Superior Standart Oda"
   }
 }

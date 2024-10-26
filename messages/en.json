@@ -4,7 +4,7 @@
     "home": "Bloomtalya Pansion",
     "about": "About",
     "gallery": "Gallery",
-    "rooms": "Rooms",
+    "roomss": "Rooms",
     "contact": "Contact"
   },
   "Hero": {
@@ -81,5 +81,14 @@
     "contact": "Contact",
     "location": "Where Are We?",
     "rights": "All Rights Reserved"
+  },
+  "Dropdown": {
+    "ourRooms": "Our Rooms",
+    "allRooms": "All Rooms",
+    "jacuzziRoom": "Jacuzzi Suite Room",
+    "familyRoom": "Family Room",
+    "standardRoom": "Standard Room",
+    "economicalRoom": "Economy Room",
+    "superiorRoom": "Superior Standard Room"
   }
 }

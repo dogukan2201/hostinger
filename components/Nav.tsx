@@ -12,7 +12,7 @@ const Nav = () => {
       path: "/",
     },
     {
-      name: t("rooms"),
+      name: t("roomss"),
       path: "/rooms",
     },
     {
@@ -33,7 +33,7 @@ const Nav = () => {
       <ul className="flex flex-col justify-center items-center lg:flex-row gap-6">
         {links.map((link, index) => (
           <li key={index}>
-            {link.name === "Odalarımız" ? (
+            {link.name === t("roomss") ? (
               <RoomDropdownMenu />
             ) : (
               <Link
