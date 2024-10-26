@@ -10,7 +10,7 @@ export default function About({}: Props) {
 
   return (
     <div className="flex flex-col">
-      <Banner title="Hakkımızda" />
+      <Banner title={t("title")} />
       <div className="w-fulll px-4 py-8 text-center flex flex-col justify-center">
         <h2 className="text-2xl md:text-4xl font-bold mb-4 font-primary">
           》{t("description")}《
