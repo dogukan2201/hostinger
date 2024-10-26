@@ -7,6 +7,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { useTranslations } from "next-intl";
 
 type Feature = {
   name: string;
@@ -16,45 +17,46 @@ type Feature = {
 
 export default function Component() {
   const [activeFeature, setActiveFeature] = useState<number | null>(null);
+  const t = useTranslations("Features");
 
   const features: Feature[] = [
     {
-      name: "Free Wi-Fi",
+      name: t("freeWiFi"),
       icon: Wifi,
-      description: "High-speed internet available throughout the pansion",
+      description: t("freeWiFiDescription"),
     },
     {
-      name: "Complimentary Breakfast",
+      name: t("complimentaryBreakfast"),
       icon: Coffee,
-      description: "Start your day with a delicious breakfast on us",
+      description: t("complimentaryBreakfastDescription"),
     },
     {
-      name: "Restaurant",
+      name: t("restaurant"),
       icon: Utensils,
-      description: "On-site restaurant serving local and international cuisine",
+      description: t("restaurantDescription"),
     },
     {
-      name: "Parking",
+      name: t("parking"),
       icon: Car,
-      description: "Secure on-site parking for your convenience",
+      description: t("parkingDescription"),
     },
     {
-      name: "Smart TV",
+      name: t("smartTv"),
       icon: Tv,
-      description: "Enjoy your favorite shows on our smart TVs",
+      description: t("smartTvDescription"),
     },
     {
-      name: "Air Conditioning",
+      name: t("airConditioning"),
       icon: Wind,
-      description: "Climate control in all rooms for your comfort",
+      description: t("airConditioningDescription"),
     },
   ];
 
   return (
     <TooltipProvider>
-      <div className="bg-background p-6 rounded-lg shadow-lg text-black">
+      <div className="bg-background p-6 rounded-lg shadow-lg text-primary">
         <h2 className="text-2xl font-bold mb-6 text-center">
-          》Hotel Features《
+          》{t("title")}《
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (

@@ -5,35 +5,37 @@ import Link from "next/link";
 
 import { FaBars } from "react-icons/fa";
 import ChangeLanguage from "./ChangeLanguage";
-
-const links = [
-  {
-    name: "Bloomtalya Pansiyon",
-    path: "/",
-  },
-  {
-    name: "Odalarımız",
-    path: "/rooms",
-  },
-  {
-    name: "Fotoğraflarımız",
-    path: "/gallery",
-  },
-  {
-    name: "Hakkımızda",
-    path: "/about",
-  },
-  {
-    name: "İletişim",
-    path: "/contact",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const MobileNav = () => {
+  const t = useTranslations("Navbar");
+  const links = [
+    {
+      name: t("home"),
+      path: "/",
+    },
+    {
+      name: t("roomss"),
+      path: "/rooms",
+    },
+    {
+      name: t("gallery"),
+      path: "/gallery",
+    },
+    {
+      name: t("about"),
+      path: "/about",
+    },
+    {
+      name: t("contact"),
+      path: "/contact",
+    },
+  ];
+
   return (
     <Sheet>
       <SheetTrigger className="text-2xl text-white flex items-center">
-        <FaBars className="" />
+        <FaBars />
       </SheetTrigger>
       <SheetContent
         side="left"

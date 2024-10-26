@@ -4,25 +4,27 @@ import ChangeLanguage from "./ChangeLanguage";
 import { useTranslations } from "next-intl";
 
 const Nav = () => {
+  const t = useTranslations("Navbar");
+
   const links = [
     {
-      name: "Bloomtalya Pansiyon",
+      name: t("home"),
       path: "/",
     },
     {
-      name: "Odalarımız",
+      name: t("roomss"),
       path: "/rooms",
     },
     {
-      name: "Fotoğraf Galerisi",
+      name: t("gallery"),
       path: "/gallery",
     },
     {
-      name: "Hakkımızda",
+      name: t("about"),
       path: "/about",
     },
     {
-      name: "İletişim",
+      name: t("contact"),
       path: "/contact",
     },
   ];
@@ -31,7 +33,7 @@ const Nav = () => {
       <ul className="flex flex-col justify-center items-center lg:flex-row gap-6">
         {links.map((link, index) => (
           <li key={index}>
-            {link.name === "Odalarımız" ? (
+            {link.name === t("roomss") ? (
               <RoomDropdownMenu />
             ) : (
               <Link

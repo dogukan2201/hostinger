@@ -1,18 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
+  DropdownMenuLabel,
 } from "../ui/dropdown-menu";
 import { HiOutlineInformationCircle } from "react-icons/hi";
-import { DropdownMenuLabel } from "@radix-ui/react-dropdown-menu";
 import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 type Props = {};
 
 export default function InfoDropdown({}: Props) {
+  const t = useTranslations("infoDropdown");
+
   return (
     <div className="fixed bottom-9 right-9">
       <DropdownMenu>
@@ -21,32 +24,30 @@ export default function InfoDropdown({}: Props) {
         </DropdownMenuTrigger>
         <DropdownMenuContent className="mt-2 w-48 bg-white shadow-lg rounded-lg p-4">
           <DropdownMenuLabel>
-            <span className="text-primary-hover font-bold">
-              Bloomtalya Pansiyon
-            </span>{" "}
-            | Antalyadaki Eviniz
+            <span className="text-primary-hover font-bold">{t("title")}</span> |{" "}
+            {t("subtitle")}
           </DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem className="hover:bg-green-500 hover:text-white transition duration-200">
             <FaWhatsapp className="text-green-500" />
             <a
               href="https://wa.me/+905055343030"
-              className="text-primary "
+              className="text-primary"
               target="_blank"
               rel="noopener noreferrer"
             >
-              WhatsApp İletişimi
+              {t("whatsapp")}
             </a>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <FaEnvelope className="text-red-400" />
             <a href="mailto:reservation@bloomtalyapansiyon.com.tr">
-              E-posta Gönder
+              {t("email")}
             </a>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <FaPhone size={5} className="text-blue-500" />
-            <a href="tel:+905055343030">Telefonla Ara</a>
+            <a href="tel:+905055343030">{t("call")}</a>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
