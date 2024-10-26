@@ -4,25 +4,27 @@ import ChangeLanguage from "./ChangeLanguage";
 import { useTranslations } from "next-intl";
 
 const Nav = () => {
+  const t = useTranslations("Navbar");
+
   const links = [
     {
-      name: "Bloomtalya Pansiyon",
+      name: t("home"),
       path: "/",
     },
     {
-      name: "Odalarımız",
+      name: t("rooms"),
       path: "/rooms",
     },
     {
-      name: "Fotoğraf Galerisi",
+      name: t("gallery"),
       path: "/gallery",
     },
     {
-      name: "Hakkımızda",
+      name: t("about"),
       path: "/about",
     },
     {
-      name: "İletişim",
+      name: t("contact"),
       path: "/contact",
     },
   ];

@@ -115,7 +115,7 @@ export default function RoomDetailPage() {
 
       <div className="flex justify-between items-center p-4 border-t">
         <div>
-          <h2 className="font-bold text-black text-3xl">2000₺ / Gecelik</h2>
+          <h2 className="font-bold text-black text-3xl">3256₺ / Gecelik</h2>
         </div>
         <Button className="bg-primary text-primary-foreground">
           Rezervasyon Yap
