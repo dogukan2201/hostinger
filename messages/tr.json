@@ -26,7 +26,16 @@
     "a5": "Bloomtalya Pansiyon bahçe sunmaktadır."
   },
   "Rooms": {
-    "title": "Odalarımız"
+    "title": "Odalarımız",
+    "jacuzziRoom": "Jakuzili Suite Oda",
+    "familyRoom": "Aile Odası",
+    "standardRoom": "Standart Oda",
+    "economicalRoom": "Ekonomik Oda",
+    "superiorRoom": "Superior Oda",
+    "pricePerNight": "{price}₺ / Gecelik",
+    "capacity": "Kapasite: {maxGuests}",
+    "size": "35m²",
+    "moreInfo": "Daha fazla bilgi için tıklayın"
   },
   "Gallery": {
     "title": "Fotoğraf Galerimiz"

@@ -26,8 +26,18 @@
     "a5": "Bloomtalya Pansiyon offers a garden."
   },
   "Rooms": {
-    "title": "Our Rooms"
+    "title": "Our Rooms",
+    "jacuzziRoom": "Jacuzzi Suite Room",
+    "familyRoom": "Family Room",
+    "standardRoom": "Standard Room",
+    "economicalRoom": "Economy Room",
+    "superiorRoom": "Superior Room",
+    "pricePerNight": "{price}₺ / per Night",
+    "capacity": "Capacity: {maxGuests}",
+    "size": "35m²",
+    "moreInfo": "Click for more information"
   },
+
   "Gallery": {
     "title": "Our Photo Galleries"
   },
