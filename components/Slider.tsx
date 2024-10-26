@@ -70,7 +70,7 @@ export default function Component() {
             />
             <Button
               variant="outline"
-              size="md"
+              size="sm"
               className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white/80 hover:bg-white"
               onClick={goToPrevious}
             >
@@ -79,8 +79,8 @@ export default function Component() {
             </Button>
             <Button
               variant="outline"
-              size="md"
-              className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white/80 hover:bg-white"
+              size="sm"
+              className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white/80 hover:bg-white "
               onClick={goToNext}
             >
               <ChevronRight className="h-4 w-4" />

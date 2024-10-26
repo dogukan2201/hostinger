@@ -36,7 +36,6 @@
     "description": "Biz Kimiz?",
     "content": "Bloomtalya Pansiyon, 2023 yılında hizmete açılmıştır.\n Değerli misafirlerimizi Antalya'nın en güzel konumlarından birinde ağırlamaktan mutluluk duyuyoruz.\n Modern mimari ile tasarlanan ve her detayı özenle düşünülmüş odalarımız,\n en yüksek kalite standartları ile donatılmış olup, rahatınız için her ayrıntı titizlikle sunulmaktadır.\n Antalya'nın merkezinde yer alan otelimiz, büyüleyici Kaleiçi bölgesi de dahil olmak üzere şehrin önemli cazibe merkezlerine kolay erişim sağlar.\n Tarihi Kaleiçi'ne yalnızca 15 dakikalık bir yürüyüş mesafesinde bulunan Bloomtalya Pansiyon,\n Antalya'nın sunduğu güzellikleri keşfetmeniz için ideal bir başlangıç noktasıdır."
   },
-
   "Contact": {
     "title": "İletişim",
     "header": "Bize Ulaşın",
@@ -57,5 +56,30 @@
     "suggestionHeader": "Herhangi bir öneri ya da istek",
     "suggestionText": "Otelimizle ilgili öneri ve isteklerinizi bizimle paylaşabilirsiniz.\nGeri dönüşleriniz bizim için değerlidir!",
     "suggestionMessage": "Geri dönüşleriniz bizim için değerlidir!"
+  },
+  "Features": {
+    "title": "Pansiyon Özellikleri",
+    "freeWiFi": "Wi-Fi",
+    "freeWiFiDescription": "Pansiyon genelinde yüksek hızlı internet",
+    "complimentaryBreakfast": "Ücretsiz Kahvaltı",
+    "complimentaryBreakfastDescription": "Güne bizim ikramımız olan lezzetli bir kahvaltı ile başlayın",
+    "restaurant": "Restoran",
+    "restaurantDescription": "Yerel ve uluslararası lezzetler sunan restoran",
+    "parking": "Otopark",
+    "parkingDescription": "Güvenli otopark hizmetimiz mevcuttur",
+    "smartTv": "Akıllı TV",
+    "smartTvDescription": "Akıllı TV'lerde favori programlarınızı izleyin",
+    "airConditioning": "Klima",
+    "airConditioningDescription": "Konforunuz için tüm odalarda iklim kontrolü"
+  },
+  "Footer": {
+    "copyright": "© 2024 Bloomtalya Pansiyon Tüm Hakları Saklıdır",
+    "address": "Kızıltoprak, 902. Sk. No: 2 İç Kapı No:1, 07300 Muratpaşa/Antalya",
+    "phone": "0(505) 534 30 30",
+    "email": "reservation@bloomtalyapansiyon.com.tr",
+    "social": "Sosyal Medya",
+    "contact": "İletişim",
+    "location": "Biz Neredeyiz?",
+    "rights": "Tüm Hakları Saklıdır"
   }
 }

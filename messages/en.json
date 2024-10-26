@@ -56,5 +56,30 @@
     "suggestionHeader": "Any suggestions or requests",
     "suggestionText": "You can share your suggestions and requests regarding our hotel with us.\nYour feedback is valuable to us!",
     "suggestionMessage": "Your feedback is valuable to us!"
+  },
+  "Features": {
+    "title": "Pansion Features",
+    "freeWiFi": "Wi-Fi",
+    "freeWiFiDescription": "High-speed internet available throughout the pansion",
+    "complimentaryBreakfast": "Complimentary Breakfast",
+    "complimentaryBreakfastDescription": "Start your day with a delicious breakfast on us",
+    "restaurant": "Restaurant",
+    "restaurantDescription": "On-site restaurant serving local and international cuisine",
+    "parking": "Parking",
+    "parkingDescription": "Secure on-site parking for your convenience",
+    "smartTv": "Smart TV",
+    "smartTvDescription": "Enjoy your favorite shows on our smart TVs",
+    "airConditioning": "Air Conditioning",
+    "airConditioningDescription": "Climate control in all rooms for your comfort"
+  },
+  "Footer": {
+    "copyright": "Copyright © 2023 Bloomtalya Pansion. All rights reserved.",
+    "address": "Kızıltoprak, 902. St. No: 2, Door No:1, 07300 Muratpaşa/Antalya, Turkey",
+    "phone": "+90 505 534 30 30",
+    "email": "reservation@bloomtalyapansiyon.com.tr",
+    "social": "Social Media",
+    "contact": "Contact",
+    "location": "Where Are We?",
+    "rights": "All Rights Reserved"
   }
 }
