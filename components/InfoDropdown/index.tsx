@@ -31,7 +31,7 @@ export default function InfoDropdown({}: Props) {
             <FaWhatsapp className="text-green-500" />
             <a
               href="https://wa.me/+905055343030"
-              className="text-primary hover:underline"
+              className="text-primary "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -40,21 +40,13 @@ export default function InfoDropdown({}: Props) {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <FaEnvelope className="text-red-400" />
-            <a
-              href="mailto:reservation@bloomtalyapansiyon.com.tr"
-              className="text-blue-500 hover:underline"
-            >
+            <a href="mailto:reservation@bloomtalyapansiyon.com.tr">
               E-posta Gönder
             </a>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <FaPhone size={5} className="text-blue-500" />
-            <a
-              href="tel:+905055343030"
-              className="text-blue-500 hover:underline"
-            >
-              Telefonla Ara
-            </a>
+            <a href="tel:+905055343030">Telefonla Ara</a>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

@@ -4,8 +4,6 @@ import ChangeLanguage from "./ChangeLanguage";
 import { useTranslations } from "next-intl";
 
 const Nav = () => {
-  const { t } = useTranslations();
-
   const links = [
     {
       name: "Bloomtalya Pansiyon",

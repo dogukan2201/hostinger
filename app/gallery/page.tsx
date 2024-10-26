@@ -1,7 +1,7 @@
 import Gallery from "@/components/Gallery";
 import React from "react";
 import { useTranslations } from "next-intl";
-const page = () => {
+const Page = () => {
   const t = useTranslations("Gallery");
 
   return (
@@ -14,4 +14,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
