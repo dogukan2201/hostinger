@@ -38,7 +38,7 @@ const rooms = [
   },
 ];
 
-const RoomDetails = () => {
+const RoomsPage = () => {
   const t = useTranslations("Rooms");
 
   return (
@@ -103,4 +103,4 @@ const RoomDetails = () => {
   );
 };
 
-export default RoomDetails;
+export default RoomsPage;

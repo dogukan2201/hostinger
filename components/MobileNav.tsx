@@ -15,7 +15,7 @@ const MobileNav = () => {
       path: "/",
     },
     {
-      name: t("rooms"),
+      name: t("roomss"),
       path: "/rooms",
     },
     {

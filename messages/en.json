@@ -32,14 +32,13 @@
     "standardRoom": "Standard Room",
     "economicalRoom": "Economy Room",
     "superiorRoom": "Superior Room",
-    "pricePerNight": "{price}₺ / per Night",
+    "pricePerNight": "{price}₺ / Per Night",
     "capacity": "Capacity: {maxGuests}",
     "size": "35m²",
     "moreInfo": "Click for more information"
   },
-
   "Gallery": {
-    "title": "Our Photo Galleries"
+    "title": "Our Photo Gallery"
   },
   "About": {
     "title": "About Us",
@@ -85,7 +84,7 @@
   "Footer": {
     "copyright": "Copyright © 2023 Bloomtalya Pansion. All rights reserved.",
     "address": "Kızıltoprak, 902. St. No: 2, Door No:1, 07300 Muratpaşa/Antalya, Turkey",
-    "phone": "+90 505 534 30 30",
+    "phone": "+90 (505) 534 30 30",
     "email": "reservation@bloomtalyapansiyon.com.tr",
     "social": "Social Media",
     "contact": "Contact",
@@ -100,5 +99,47 @@
     "standardRoom": "Standard Room",
     "economicalRoom": "Economy Room",
     "superiorRoom": "Superior Standard Room"
+  },
+  "Ekonomik": {
+    "info": "Economy Room",
+    "description": "Our room, designed in a modern style, includes one double bed and one single bed. Suitable for up to 3 adults and 1 child.",
+    "price": "1375₺ / Per Night",
+    "tabAbout": "Room Features",
+    "reserveButton": "Make a Reservation"
+  },
+  "JacuzziRoom": {
+    "info": "Jacuzzi Suite Room",
+    "description": "Our modernly designed room includes one double bed and one single bed. Suitable for up to 3 adults and 1 child. Our rooms are generally clean and functional. For more information, you can reach us via our WhatsApp number or call us directly.",
+    "price": "3256₺ / Per Night",
+    "tabAbout": "Room Features",
+    "reserveButton": "Make a Reservation"
+  },
+  "FamilyRoom": {
+    "info": "Family Room",
+    "tabAbout": "Room Features",
+    "description": "Our room, designed in a modern style, includes one double bed and one single bed. It is suitable for up to 3 adults and 1 child.",
+    "price": "1985₺ / Per Night",
+    "reserveButton": "Make a Reservation"
+  },
+  "StandardRoom": {
+    "info": "Standard Room",
+    "tabAbout": "Room Features",
+    "description": "Our room, designed in a modern style, includes one double bed and one single bed. It is suitable for up to 3 adults and 1 child.",
+    "price": "1760₺ / Per Night",
+    "reserveButton": "Make a Reservation"
+  },
+  "SuperiorRoom": {
+    "info": "Superior Room",
+    "tabAbout": "Room Features",
+    "description": "Our room, designed in a modern style, includes one double bed and one single bed. It is suitable for up to 3 adults and 1 child.",
+    "price": "2000₺ / Per Night",
+    "reserveButton": "Make a Reservation"
+  },
+  "infoDropdown": {
+    "title": "Bloomtalya Pansiyon",
+    "subtitle": "Your Hause In Antalya",
+    "whatsapp": "WhatsApp Contact",
+    "email": "Send Email",
+    "call": "Call Us"
   }
 }

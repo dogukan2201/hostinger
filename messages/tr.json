@@ -84,7 +84,7 @@
   "Footer": {
     "copyright": "© 2024 Bloomtalya Pansiyon Tüm Hakları Saklıdır",
     "address": "Kızıltoprak, 902. Sk. No: 2 İç Kapı No:1, 07300 Muratpaşa/Antalya",
-    "phone": "0(505) 534 30 30",
+    "phone": "+90 (505) 534 30 30",
     "email": "reservation@bloomtalyapansiyon.com.tr",
     "social": "Sosyal Medya",
     "contact": "İletişim",
@@ -99,5 +99,47 @@
     "standardRoom": "Standart Oda",
     "economicalRoom": "Ekonomik Oda",
     "superiorRoom": "Superior Standart Oda"
+  },
+  "Ekonomik": {
+    "info": "Ekonomik Oda",
+    "description": "Modern şekilde dizayn edilen odamızda 1 adet çift kişilik ve 1 adet tek kişilik yatak mevcuttur. En fazla 3 yetişkin ve 1 çocuk konaklaması için uygundur.",
+    "price": "1375₺ / Gecelik",
+    "tabAbout": "Oda Özellikleri",
+    "reserveButton": "Rezervasyon Yap"
+  },
+  "JacuzziRoom": {
+    "info": "Jakuzili Suite Oda",
+    "description": "Modern şekilde dizayn edilen odamızda 1 adet çift kişilik ve 1 adet tek kişilik yatak mevcuttur. En fazla 3 yetişkin ve 1 çocuk konaklaması için uygundur. Odalarımız genel anlamda temiz ve kullanışlıdır. Odalarımız hakkında daha fazla bilgi almak için WhatsApp numaramızdan bizlere ulaşabilir veya bizleri direkt arayabilirsiniz.",
+    "price": "3256₺ / Gecelik",
+    "tabAbout": "Oda Özellikleri",
+    "reserveButton": "Rezervasyon Yap"
+  },
+  "FamilyRoom": {
+    "info": "Aile Odası",
+    "tabAbout": "Oda Özellikleri",
+    "description": "Modern şekilde dizayn edilen odamızda 1 adet çift kişilik ve 1 adet tek kişilik yatak mevcuttur. En fazla 3 yetişkin ve 1 çocuk konaklaması için uygundur.",
+    "price": "1985₺ / Gecelik",
+    "reserveButton": "Rezervasyon Yap"
+  },
+  "StandardRoom": {
+    "info": "Standart Oda",
+    "tabAbout": "Oda Özellikleri",
+    "description": "Modern şekilde dizayn edilen odamızda 1 adet çift kişilik ve 1 adet tek kişilik yatak mevcuttur. En fazla 3 yetişkin ve 1 çocuk konaklaması için uygundur.",
+    "price": "1760₺ / Gecelik",
+    "reserveButton": "Rezervasyon Yap"
+  },
+  "SuperiorRoom": {
+    "info": "Superior Oda",
+    "tabAbout": "Oda Özellikleri",
+    "description": "Modern şekilde dizayn edilen odamızda 1 adet çift kişilik ve 1 adet tek kişilik yatak mevcuttur. En fazla 3 yetişkin ve 1 çocuk konaklaması için uygundur.",
+    "price": "2000₺ / Gecelik",
+    "reserveButton": "Rezervasyon Yap"
+  },
+  "infoDropdown": {
+    "title": "Bloomtalya Pansiyon",
+    "subtitle": "Antalyadaki Eviniz",
+    "whatsapp": "WhatsApp İletişimi",
+    "email": "E-posta Gönder",
+    "call": "Telefonla Ara"
   }
 }

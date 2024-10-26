@@ -54,7 +54,7 @@ export default function Component() {
 
   return (
     <TooltipProvider>
-      <div className="bg-background p-6 rounded-lg shadow-lg text-black">
+      <div className="bg-background p-6 rounded-lg shadow-lg text-primary">
         <h2 className="text-2xl font-bold mb-6 text-center">
           》{t("title")}《
         </h2>
