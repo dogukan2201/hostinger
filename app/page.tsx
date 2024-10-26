@@ -1,15 +1,16 @@
 import Faq from "@/components/Faq";
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import { Photoslide } from "@/components/Photoslide";
-
 import Rooms from "@/components/Rooms";
+import Slider from "@/components/Slider";
 
 const Home = () => {
   return (
     <main>
       <Hero />
+      <Slider />
       <Faq />
-      <Photoslide />
+      <Features />
       <Rooms />
     </main>
   );

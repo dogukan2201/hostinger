@@ -41,7 +41,7 @@ export default function InfoDropdown({}: Props) {
           <DropdownMenuItem>
             <FaEnvelope className="text-red-400" />
             <a
-              href="mailto:reservation@bloomtalyahotel.com.tr"
+              href="mailto:reservation@bloomtalyapansiyon.com.tr"
               className="text-blue-500 hover:underline"
             >
               E-posta Gönder

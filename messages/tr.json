@@ -1,9 +1,60 @@
 {
-    "Navbar": {
-      "title": "Antalyadaki eviniz",
-      "about": "sayfaya gidin"
-    },
-    "AboutPage":{
-        
-    }
+  "Navbar": {
+    "title": "Antalyadaki Eviniz",
+    "about": "Hakkında",
+    "gallery": "Galeri",
+    "rooms": "Odalar",
+    "contact": "İletişim"
+  },
+  "Hero": {
+    "Welcome": "BLOOMTALYA PANSİYONA HOŞGELDİNİZ",
+    "Reservation": "Rezervasyon Yap"
+  },
+  "Faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "description": "Başka sorularınız varsa lütfen e-posta gönderin.",
+    "q1": "Bloomtalya Pansiyon, iade için ücretsiz iptal teklif ediyor mu?",
+    "a1": "Evet, tamamen iade edilebilir odalar sunulmaktadır. İptal şartlarını kontrol ettiğinizden emin olun.",
+    "q2": "Otopark imkânı var mı?",
+    "a2": "Evet, ücretsiz valesiz otopark mevcuttur.",
+    "q3": "Etrafındaki bölge nasıldır ?",
+    "a3": "Eski Çarşı ve Saat Kulesine 17 dakikalık yürüyüş mesafesindedir.",
+    "q4": "Evcil hayvan kabul ediyor musunuz?",
+    "a4": "Maalesef, evcil hayvan kabul edemiyoruz.",
+    "q5": "Yakınlardaki olanaklar nelerdir?",
+    "a5": "Bloomtalya Pansiyon bahçe sunmaktadır."
+  },
+  "Rooms": {
+    "title": "Odalarımız"
+  },
+  "Gallery": {
+    "title": "Fotoğraf Galerimiz"
+  },
+  "About": {
+    "title": "Hakkımızda",
+    "description": "Biz Kimiz?",
+    "content": "Bloomtalya Pansiyon, 2023 yılında hizmete açılmıştır.\n Değerli misafirlerimizi Antalya'nın en güzel konumlarından birinde ağırlamaktan mutluluk duyuyoruz.\n Modern mimari ile tasarlanan ve her detayı özenle düşünülmüş odalarımız,\n en yüksek kalite standartları ile donatılmış olup, rahatınız için her ayrıntı titizlikle sunulmaktadır.\n Antalya'nın merkezinde yer alan otelimiz, büyüleyici Kaleiçi bölgesi de dahil olmak üzere şehrin önemli cazibe merkezlerine kolay erişim sağlar.\n Tarihi Kaleiçi'ne yalnızca 15 dakikalık bir yürüyüş mesafesinde bulunan Bloomtalya Pansiyon,\n Antalya'nın sunduğu güzellikleri keşfetmeniz için ideal bir başlangıç noktasıdır."
+  },
+
+  "Contact": {
+    "title": "İletişim",
+    "header": "Bize Ulaşın",
+    "nameLabel": "Ad Soyad",
+    "namePlaceholder": "Adınızı girin",
+    "nameRequired": "Ad Soyad gerekli",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "E-postanızı girin",
+    "emailRequired": "E-posta gerekli",
+    "emailPattern": "Geçersiz e-posta formatı",
+    "subjectLabel": "Konu",
+    "subjectPlaceholder": "Konu",
+    "subjectRequired": "Konu gerekli",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Mesajınızı yazın",
+    "messageRequired": "Mesaj gerekli",
+    "submitButton": "Gönder",
+    "suggestionHeader": "Herhangi bir öneri ya da istek",
+    "suggestionText": "Otelimizle ilgili öneri ve isteklerinizi bizimle paylaşabilirsiniz.\nGeri dönüşleriniz bizim için değerlidir!",
+    "suggestionMessage": "Geri dönüşleriniz bizim için değerlidir!"
   }
+}

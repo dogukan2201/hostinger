@@ -1,9 +1,59 @@
 {
-    "Navbar": {
-      "title": "Your house in antalya",
-      "about": "Go to the about page"
-    },
-    "AboutPage":{
-
-    }
+  "Navbar": {
+    "title": "Your House In Antalya",
+    "about": "About",
+    "gallery": "Gallery",
+    "rooms": "Rooms",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "Welcome": "WELCOME TO BLOOMTALYA Pension",
+    "Reservation": "Make a Reservation"
+  },
+  "Faq": {
+    "title": "Frequently Asked Questions",
+    "description": "If you have any further questions, please email.",
+    "q1": "Bloomtalya Pansiyon, free cancellation for refund does he offer?",
+    "a1": "Yes, fully refundable rooms are offered. Be sure to check their cancellation policy.",
+    "q2": "Is there parking available?",
+    "a2": "Yes, free self parking is available.",
+    "q3": "What is the surrounding area like?",
+    "a3": "It is a 17-minute walk from the Old Bazaar and Clock Tower.",
+    "q4": "Do you accept pets?",
+    "a4": "Unfortunately, we cannot accept pets.",
+    "q5": "What are the amenities nearby?",
+    "a5": "Bloomtalya Pansiyon offers a garden."
+  },
+  "Rooms": {
+    "title": "Our Rooms"
+  },
+  "Gallery": {
+    "title": "Our Photo Galleries"
+  },
+  "About": {
+    "title": "About Us",
+    "description": "Who Are We ?",
+    "content": "Bloomtalya Pansiyon, which opened in 2023,\n is delighted to welcome you, our esteemed guests, in one of the most beautiful locations in Antalya.\n Our rooms, designed with modern architecture and attention to every detail,\n are equipped with the highest quality standards, ensuring that every aspect is meticulously provided for your comfort.\n Located in the center of Antalya, our hotel offers easy access to the city's main attractions, including the enchanting Kaleiçi district.\n Just a 15-minute walk from the historic Kaleiçi, Bloomtalya Pansiyon is the ideal starting point for discovering the beauty that Antalya has to offer."
+  },
+  "Contact": {
+    "title": "Contact",
+    "header": "Contact Us",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your name",
+    "nameRequired": "Full name is required",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "emailRequired": "Email is required",
+    "emailPattern": "Invalid email format",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Subject",
+    "subjectRequired": "Subject is required",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message",
+    "messageRequired": "Message is required",
+    "submitButton": "Send",
+    "suggestionHeader": "Any suggestions or requests",
+    "suggestionText": "You can share your suggestions and requests regarding our hotel with us.\nYour feedback is valuable to us!",
+    "suggestionMessage": "Your feedback is valuable to us!"
   }
+}
