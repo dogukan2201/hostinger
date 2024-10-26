@@ -11,7 +11,7 @@ export default function RoomDetailPage() {
       <div className="flex flex-col md:flex-row gap-8 p-4">
         <div className="w-full md:w-2/3">
           <img
-            src={"/jakuziPhoto/jakuzi3.jpg"}
+            src={"/superiorPhoto/superior3.jpg"}
             className="w-full h-full object-cover rounded-md"
           />
         </div>

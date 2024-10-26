@@ -1,8 +1,10 @@
 "use client";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const Faq: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const t = useTranslations("Faq");
 
   const toggleCollapse = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -13,10 +15,10 @@ const Faq: React.FC = () => {
       <div className="container px-4 grid gap-4 md:gap-6">
         <div className="space-y-2">
           <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-            Sıkça Sorulan Sorular
+            {t("title")}
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed dark:text-gray-400">
-            Başka sorularınız varsa lütfen desteğe e-posta gönderin.
+            {t("description")}
           </p>
         </div>
         <div className="space-y-4">
@@ -26,13 +28,11 @@ const Faq: React.FC = () => {
               style={{ backgroundColor: "#434343", color: "white" }}
               className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
-              Bloomtalya Pansiyon, tam geri ödeme için ücretsiz iptal imkânı
-              sunuyor mu?
+              {t("q1")}
             </button>
             {activeIndex === 0 && (
               <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                Evet, tamamen iade edilebilir odalar sunulmaktadır. İptal
-                şartlarını kontrol ettiğinizden emin olun.
+                {t("a1")}
               </p>
             )}
           </div>
@@ -43,11 +43,11 @@ const Faq: React.FC = () => {
               style={{ backgroundColor: "#434343", color: "white" }}
               className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
-              Otopark imkânı var mı?
+              {t("q2")}
             </button>
             {activeIndex === 1 && (
               <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                Evet, ücretsiz valesiz otopark mevcuttur.
+                {t("a2")}
               </p>
             )}
           </div>
@@ -58,12 +58,11 @@ const Faq: React.FC = () => {
               style={{ backgroundColor: "#434343", color: "white" }}
               className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
-              Etrafındaki bölge nasıldır?
+              {t("q3")}
             </button>
             {activeIndex === 2 && (
               <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                Eski Çarşı ve Saat Kulesi&apos;ne 17 dakikalık yürüyüş
-                mesafesindedir.
+                {t("a3")}
               </p>
             )}
           </div>
@@ -74,11 +73,11 @@ const Faq: React.FC = () => {
               style={{ backgroundColor: "#434343", color: "white" }}
               className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
-              Evcil hayvan kabul ediyor mu?
+              {t("q4")}
             </button>
             {activeIndex === 3 && (
               <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                Maalesef, evcil hayvanlar kabul edilmemektedir.
+                {t("a4")}
               </p>
             )}
           </div>
@@ -89,11 +88,11 @@ const Faq: React.FC = () => {
               style={{ backgroundColor: "#434343", color: "white" }}
               className="w-full justify-start text-left font-semibold text-sm md:text-base p-2 rounded"
             >
-              Yakınlardaki imkânlar nelerdir?
+              {t("q5")}
             </button>
             {activeIndex === 4 && (
               <p className="text-gray-500 text-sm md:text-lg leading-relaxed dark:text-gray-400 p-2">
-                Bloomtalya Pansiyon bahçe sunmaktadır.
+                {t("a5")}
               </p>
             )}
           </div>

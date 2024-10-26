@@ -1,32 +1,33 @@
 import Link from "next/link";
-import { RoomDropdownMenu } from "@/components/Dropdown"; // Bileşeni içe aktardık
+import { RoomDropdownMenu } from "@/components/Dropdown";
 import ChangeLanguage from "./ChangeLanguage";
 import { useTranslations } from "next-intl";
 
-const links = [
-  {
-    name: "Bloomtalya Pansiyon",
-    path: "/",
-  },
-  {
-    name: "Odalarımız",
-    path: "/rooms",
-  },
-  {
-    name: "Fotoğraf Galerisi",
-    path: "/gallery",
-  },
-  {
-    name: "Hakkımızda",
-    path: "/about",
-  },
-  {
-    name: "İletişim",
-    path: "/contact",
-  },
-];
-
 const Nav = () => {
+  const { t } = useTranslations();
+
+  const links = [
+    {
+      name: "Bloomtalya Pansiyon",
+      path: "/",
+    },
+    {
+      name: "Odalarımız",
+      path: "/rooms",
+    },
+    {
+      name: "Fotoğraf Galerisi",
+      path: "/gallery",
+    },
+    {
+      name: "Hakkımızda",
+      path: "/about",
+    },
+    {
+      name: "İletişim",
+      path: "/contact",
+    },
+  ];
   return (
     <nav className="flex items-center">
       <ul className="flex flex-col justify-center items-center lg:flex-row gap-6">

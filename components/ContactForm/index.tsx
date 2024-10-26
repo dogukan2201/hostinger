@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { useTranslations } from "next-intl";
 
 type FormValues = {
   name: string;
@@ -35,6 +36,7 @@ export default function ContactForm() {
       alert("Mesaj gönderilemedi.");
     }
   };
+  const t = useTranslations("Contact");
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 font-secondary">
@@ -43,16 +45,16 @@ export default function ContactForm() {
         className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg border border-gray-200"
       >
         <h2 className="text-2xl font-bold mb-6 text-center text-434343">
-          Bize Ulaşın
+          {t("header")}
         </h2>
 
         <div className="mb-4" style={{ color: "#434343" }}>
-          <label className="block text-sm font-bold">Ad Soyad</label>
+          <label className="block text-sm font-bold">{t("nameLabel")}</label>
           <input
             type="text"
-            {...register("name", { required: "Ad Soyad gerekli" })}
+            {...register("name", { required: t("nameRequired") })}
             className="mt-1 block w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-434343 focus:ring focus:ring-434343/50 placeholder-434343 text-434343"
-            placeholder="Adınızı girin"
+            placeholder={t("namePlaceholder")}
           />
           {errors.name && (
             <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>
@@ -64,11 +66,11 @@ export default function ContactForm() {
           <input
             type="email"
             {...register("email", {
-              required: "E-posta gerekli",
+              required: t("emailRequired"),
               pattern: /^\S+@\S+$/i,
             })}
             className="mt-1 block w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-434343 focus:ring focus:ring-434343/50 placeholder-434343 text-434343"
-            placeholder="E-postanızı girin"
+            placeholder={t("emailPlaceholder")}
           />
           {errors.email && (
             <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
@@ -79,9 +81,9 @@ export default function ContactForm() {
           <label className="block text-sm text-434343 font-bold">Konu</label>
           <input
             type="text"
-            {...register("subject", { required: "Konu gerekli" })}
+            {...register("subject", { required: t("subjectRequired") })}
             className="mt-1 block w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-434343 focus:ring focus:ring-434343/50 placeholder-434343 text-434343"
-            placeholder="Konu"
+            placeholder={t("subjectPlaceholder")}
           />
           {errors.subject && (
             <p className="text-red-500 text-sm mt-1">
@@ -91,12 +93,14 @@ export default function ContactForm() {
         </div>
 
         <div className="mb-6" style={{ color: "#434343" }}>
-          <label className="block text-sm text-434343 font-bold">Mesaj</label>
+          <label className="block text-sm text-434343 font-bold">
+            {t("messageLabel")}
+          </label>
           <textarea
-            {...register("message", { required: "Mesaj gerekli" })}
+            {...register("message", { required: t("messageRequired") })}
             className="mt-1 block w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-434343 focus:ring focus:ring-434343/50 placeholder-434343 text-434343"
             rows={4}
-            placeholder="Mesajınızı yazın"
+            placeholder={t("messagePlaceholder")}
           />
           {errors.message && (
             <p className="text-red-500 text-sm mt-1">
@@ -110,15 +114,12 @@ export default function ContactForm() {
           style={{ backgroundColor: "#F9D89D", color: "#434343" }}
           className="w-full py-2 px-4 rounded hover:opacity-80 transition-colors font-semibold block"
         >
-          Gönder
+          {t("submitButton")}
         </button>
 
         <div className="mt-8 text-center" style={{ color: "#434343" }}>
-          <h3 className="text-lg font-bold">Herhangi bir öneri ya da istek</h3>
-          <p className="text-sm mt-2">
-            Otelimizle ilgili öneri ve isteklerinizi bizimle paylaşabilirsiniz.
-            <p>Geri dönüşleriniz bizim için değerlidir!</p>
-          </p>
+          <h3 className="text-lg font-bold">{t("suggestionHeader")}</h3>
+          <p className="text-sm mt-2">{t("suggestionText")}</p>
         </div>
       </form>
     </div>

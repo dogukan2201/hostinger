@@ -1,36 +1,45 @@
 "use client";
 import { TbArrowsMaximize, TbUsers } from "react-icons/tb";
+import { FaHandPointer } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const rooms = [
   {
     id: "jacuzziRoom",
-    price: 10000,
+    price: 3256,
     image: "/jakuziPhoto/jakuzi3.jpg",
     info: "Jakuzili Suite Oda",
     maxGuests: 2,
   },
   {
     id: "familyRoom",
-    price: 15000,
+    price: 1985,
     image: "/ailePhoto/aileOdası.jpg",
     info: "Aile Odası",
     maxGuests: 4,
   },
   {
     id: "standardRoom",
-    price: 20000,
+    price: 1760,
     image: "/standartPhoto/standart1.jpg",
     info: "Standart Oda",
     maxGuests: 3,
   },
   {
     id: "economicalRoom",
-    price: 25000,
+    price: 1375,
     image: "/ekonomikPhoto/ekonomik1.jpeg",
     info: "Ekonomik Oda",
+    maxGuests: 2,
+  },
+  {
+    id: "superiorRoom",
+    price: 2000,
+    image: "/superiorPhoto/superior1.jpg",
+    info: "Superior Oda",
     maxGuests: 2,
   },
 ];
@@ -56,17 +65,16 @@ const RoomDetails = () => {
     setIsImageEnlarged((prev) => !prev);
   };
 
+  const t = useTranslations("Rooms");
+
   return (
     <div className="min-h-[80vh]">
-      <head>
-        <title>Bloomtalya Pansiyon | Odalarımız</title>
-      </head>
       <h1 className="text-4xl font-bold mt-8 mx-auto w-full text-center">
-        》Odalarımız《
+        》{t("title")}《
       </h1>
       <div className="container mx-auto py-8">
         <div
-          className="flex flex-col gap-8 h-full"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full"
           style={{ color: "#434343" }}
         >
           {rooms.map((room) => (
@@ -94,34 +102,26 @@ const RoomDetails = () => {
                   className="text-2xl font-bold w-52"
                   style={{ color: "#434343" }}
                 >
-                  {room.price}$ / Gecelik
+                  {room.price}₺ / Gecelik
                 </p>
                 <div
                   className="flex items-center gap-8 mb-4"
                   style={{ color: "#434343" }}
                 >
                   <div className="flex items-center gap-2">
-                    <TbUsers
-                      className="text-2xl"
-                      style={{ color: "#434343" }}
-                    />
-                    <span style={{ color: "#434343" }}>
-                      Kapasite: {room.maxGuests}
-                    </span>
+                    <TbUsers className="text-2xl" />
+                    <span>Kapasite: {room.maxGuests}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <TbArrowsMaximize
-                      className="text-2xl"
-                      style={{ color: "#434343" }}
-                    />
-                    <span style={{ color: "#434343" }}>35m²</span>
+                    <TbArrowsMaximize className="text-2xl" />
+                    <span>35m²</span>
                   </div>
                 </div>
                 <Link
                   href={`/${room.id}`}
-                  className="text-[#434343] bg-[#F7C873] p-2 rounded w-full text-center"
+                  className="text-[#434343] bg-[#F7C873] p-2 rounded w-full text-center flex items-center justify-center gap-2"
                 >
-                  Daha fazla bilgi için tıklayın
+                  Daha fazla bilgi için tıklayın <FaHandPointer />
                 </Link>
               </div>
             </div>
@@ -129,11 +129,11 @@ const RoomDetails = () => {
         </div>
         {isModalOpen && selectedImage && (
           <div
-            className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50"
+            className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50 overflow-hidden"
             onClick={closeModal}
           >
             <div
-              className={`relative w-full max-w-[90%] h-[90%] transition-transform duration-300 ${
+              className={`relative w-screen h-screen transition-transform duration-300 ${
                 isImageEnlarged ? "scale-125" : "scale-100"
               }`}
             >
@@ -144,12 +144,17 @@ const RoomDetails = () => {
                 objectFit="contain"
                 onClick={(e) => e.stopPropagation()}
               />
-              <button
-                onClick={toggleImageSize}
-                className="absolute top-4 right-4 bg-white text-black p-2 rounded shadow"
-              >
-                Küçült
-              </button>
+              {isImageEnlarged && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleImageSize();
+                  }}
+                  className="absolute top-4 right-4 bg-white text-black p-2 rounded shadow"
+                >
+                  Küçült
+                </button>
+              )}
             </div>
           </div>
         )}

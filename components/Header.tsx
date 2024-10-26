@@ -7,12 +7,8 @@ import MobileNav from "./MobileNav";
 import Nav from "./Nav";
 import { useTranslations } from "next-intl";
 
-
-
-
-
-const Header =  () => {
-  const t= useTranslations("Navbar")
+const Header = () => {
+  const t = useTranslations("Navbar");
   return (
     <header
       className="py-6 shadow-md sticky top-0 left-0 right-0 z-10"

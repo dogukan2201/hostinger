@@ -11,7 +11,7 @@ export default function RoomDetailPage() {
       <div className="flex flex-col md:flex-row gap-8 p-4">
         <div className="w-full md:w-2/3">
           <img
-            src={"/jakuziPhoto/jakuzi3.jpg"}
+            src={"/ekonomikPhoto/ekonomik1.jpeg"}
             className="w-full h-full object-cover rounded-md"
           />
         </div>
@@ -37,7 +37,7 @@ export default function RoomDetailPage() {
 
       <div className="flex justify-between items-center p-4 border-t">
         <div>
-          <h2 className="font-bold text-black text-3xl">2000₺ / Gecelik</h2>
+          <h2 className="font-bold text-black text-3xl">1375₺ / Gecelik</h2>
         </div>
         <Button className="bg-primary text-primary-foreground">
           Rezervasyon Yap
