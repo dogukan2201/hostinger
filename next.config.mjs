@@ -4,7 +4,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: process.env.EXPORT_MODE === "true" ? "export" : undefined,
+  output: "export ",
   reactStrictMode: false,
 };
 
