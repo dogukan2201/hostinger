@@ -1,8 +1,10 @@
+'use client'
 import { Button } from "./ui/button";
 import { useTranslations } from "next-intl";
 
 const Hero = () => {
   const t = useTranslations("Hero");
+  
   return (
     <section className="h-[60vh] lg:h-[80vh] bg-hero bg-cover bg-center bg-no-repeat">
       <div className="container mx-auto h-full flex justify-center items-center">
@@ -11,6 +13,7 @@ const Hero = () => {
             {t("Welcome")}
           </h1>
           <Button
+            onClick={()=>{window.open('https://bloomtalya.rezervasyonal.com/','_blank')}}
             size="lg"
             className="mt-8 bg-white text-accent hover:bg-accent hover:text-white transition-colors"
           >
