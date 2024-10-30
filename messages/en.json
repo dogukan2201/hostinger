@@ -43,7 +43,7 @@
   "About": {
     "title": "About Us",
     "description": "Who Are We ?",
-    "content": "Bloomtalya Pansiyon, which opened in 2023,\n is delighted to welcome you, our esteemed guests, in one of the most beautiful locations in Antalya.\n Our rooms, designed with modern architecture and attention to every detail,\n are equipped with the highest quality standards, ensuring that every aspect is meticulously provided for your comfort.\n Located in the center of Antalya, our hotel offers easy access to the city's main attractions, including the enchanting Kaleiçi district.\n Just a 15-minute walk from the historic Kaleiçi, Bloomtalya Pansiyon is the ideal starting point for discovering the beauty that Antalya has to offer."
+    "content": "Offering a garden, shared lounge and terrace, Bloomtalya Hotel is located in the center of Antalya, 2.1 km from Mermerli Beach. 4.9 km from Antalya Museum, 6.4 km from Antalya Aquarium and 7.1 from Antalya Aqualand km away. The reception is open 24 hours a day and the property also provides airport transfer, room service and free WiFi in all areas. All accommodation units have air conditioning, a flat-screen satellite TV, a refrigerator, a coffee machine, a shower, free toiletries and a desk. A bathroom, a hairdryer and linens are available. Guests of the hotel can enjoy an open buffet breakfast. Popular attractions such as Hadrian's Gate, Antalya Clock Tower and Old City Marina are located near Bloomtalya Hotel. The nearest airport, Antalya Airport, is 7 km away."
   },
   "Contact": {
     "title": "Contact",
@@ -63,12 +63,15 @@
     "messageRequired": "Message is required",
     "submitButton": "Send",
     "suggestionHeader": "Any suggestions or requests",
-    "suggestionText": "You can share your suggestions and requests regarding our hotel with us.\nYour feedback is valuable to us!",
+    "suggestionText": "You can share your suggestions and requests regarding our pansion with us.\nYour feedback is valuable to us!",
     "suggestionMessage": "Your feedback is valuable to us!"
   },
   "Features": {
     "title": "Pansion Features",
     "freeWiFi": "Wi-Fi",
+    "reception": "7/24 Reception",
+    "receptionDescription": "We have a 24/7 reception service",
+    "airPort": "We have a paid shuttle service to the airport.",
     "freeWiFiDescription": "High-speed internet available throughout the pansion",
     "complimentaryBreakfast": "Complimentary Breakfast",
     "complimentaryBreakfastDescription": "Start your day with a delicious breakfast on us",

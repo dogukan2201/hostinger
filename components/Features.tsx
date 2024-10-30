@@ -1,6 +1,18 @@
 "use client";
 import { useState } from "react";
-import { Wifi, Coffee, Utensils, Car, Dumbbell, Tv, Wind } from "lucide-react";
+import {
+  Wifi,
+  Coffee,
+  Bell,
+  Utensils,
+  Car,
+  ConciergeBell,
+  Dumbbell,
+  Hotel,
+  Tv,
+  Wind,
+  Plane,
+} from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
@@ -34,6 +46,16 @@ export default function Component() {
       name: t("restaurant"),
       icon: Utensils,
       description: t("restaurantDescription"),
+    },
+    {
+      name: "Airport Transfer",
+      icon: Plane,
+      description: t("airPort"),
+    },
+    {
+      name: t("reception"),
+      icon: Hotel,
+      description: t("receptionDescription"),
     },
     {
       name: t("parking"),

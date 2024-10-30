@@ -43,7 +43,7 @@
   "About": {
     "title": "Hakkımızda",
     "description": "Biz Kimiz?",
-    "content": "Bloomtalya Pansiyon, 2023 yılında hizmete açılmıştır.\n Değerli misafirlerimizi Antalya'nın en güzel konumlarından birinde ağırlamaktan mutluluk duyuyoruz.\n Modern mimari ile tasarlanan ve her detayı özenle düşünülmüş odalarımız,\n en yüksek kalite standartları ile donatılmış olup, rahatınız için her ayrıntı titizlikle sunulmaktadır.\n Antalya'nın merkezinde yer alan otelimiz, büyüleyici Kaleiçi bölgesi de dahil olmak üzere şehrin önemli cazibe merkezlerine kolay erişim sağlar.\n Tarihi Kaleiçi'ne yalnızca 15 dakikalık bir yürüyüş mesafesinde bulunan Bloomtalya Pansiyon,\n Antalya'nın sunduğu güzellikleri keşfetmeniz için ideal bir başlangıç noktasıdır."
+    "content": "Bahçe, ortak salon ve teras sunan Bloomtalya Hotel, Antalya'nın merkezinde Mermerli Plajı'na 2,1 km uzaklıkta yer almaktadır. Antalya Müzesi 4,9 km, Antalya Akvaryumu 6,4 km ve Antalya Aqualand 7,1 km uzaklıktadır. Resepsiyonu 24 saat açık olan tesis ayrıca havalimanı transferi, oda servisi ve tüm alanlarda ücretsiz WiFi sağlamaktadır.Tüm konaklama birimlerinde klima, düz ekran uydu TV, buzdolabı, kahve makinesi, duş, ücretsiz banyo malzemeleri ve çalışma masası vardır. Konaklama birimlerinde özel banyo, saç kurutma makinesi ve nevresimler mevcuttur.Otelin konukları açık büfe kahvaltının tadını çıkarabilirler.Bloomtalya Hotel yakınlarında Hadrian Kapısı, Antalya Saat Kulesi ve Eski Kent Yat Limanı gibi popüler cazibe merkezleri bulunmaktadır. En yakın havalimanı olan Antalya Havalimanı ise 7 km mesafededir.."
   },
   "Contact": {
     "title": "İletişim",
@@ -63,12 +63,15 @@
     "messageRequired": "Mesaj gerekli",
     "submitButton": "Gönder",
     "suggestionHeader": "Herhangi bir öneri ya da istek",
-    "suggestionText": "Otelimizle ilgili öneri ve isteklerinizi bizimle paylaşabilirsiniz.\nGeri dönüşleriniz bizim için değerlidir!",
+    "suggestionText": "Pansiyonumuzla ilgili öneri ve isteklerinizi bizimle paylaşabilirsiniz.\nGeri dönüşleriniz bizim için değerlidir!",
     "suggestionMessage": "Geri dönüşleriniz bizim için değerlidir!"
   },
   "Features": {
     "title": "Pansiyon Özellikleri",
     "freeWiFi": "Wi-Fi",
+    "airPort": "Havalimanına ücretli servisimiz mevcuttur",
+    "reception": "7/24 Resepsiyon",
+    "receptionDescription": "7/24 Resepsiyon hizmetimiz mevcuttur",
     "freeWiFiDescription": "Pansiyon genelinde yüksek hızlı internet",
     "complimentaryBreakfast": "Kahvaltı",
     "complimentaryBreakfastDescription": "Güne bizim ikramımız olan lezzetli bir kahvaltı ile başlayın",

@@ -10,6 +10,7 @@ import {
 import { HiOutlineInformationCircle } from "react-icons/hi";
 import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+import { Headset } from "lucide-react";
 
 type Props = {};
 
@@ -20,7 +21,7 @@ export default function InfoDropdown({}: Props) {
     <div className="fixed bottom-9 right-9">
       <DropdownMenu>
         <DropdownMenuTrigger className="flex items-center justify-center w-12 h-12 bg-primary-hover text-white rounded-full shadow-lg dropdown-trigger">
-          <HiOutlineInformationCircle size={24} />
+          <Headset />
         </DropdownMenuTrigger>
         <DropdownMenuContent className="mt-2 w-48 bg-white shadow-lg rounded-lg p-4">
           <DropdownMenuLabel>

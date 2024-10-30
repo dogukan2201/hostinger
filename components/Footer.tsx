@@ -16,7 +16,7 @@ const socials = [
   },
   {
     icon: <FaInstagram />,
-    href: "https://www.instagram.com/bloomtalyapansiyon/",
+    href: "https://www.instagram.com/bloomtalyahotel/",
   },
 ];
 
