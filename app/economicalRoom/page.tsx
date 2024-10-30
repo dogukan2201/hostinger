@@ -109,7 +109,12 @@ export default function RoomDetailPage() {
         <div>
           <h2 className="font-bold text-primary text-3xl">{t("price")}</h2>
         </div>
-        <Button className="bg-primary text-primary-foreground">
+        <Button
+          className="bg-primary text-primary-foreground"
+          onClick={() => {
+            window.open("https://bloomtalya.rezervasyonal.com/", "_blank");
+          }}
+        >
           {t("reserveButton")}
         </Button>
       </div>
