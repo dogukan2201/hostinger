@@ -20,7 +20,7 @@ export default function InfoDropdown({}: Props) {
   return (
     <div className="fixed bottom-9 right-9">
       <DropdownMenu>
-        <DropdownMenuTrigger className="flex items-center justify-center w-12 h-12 bg-primary-hover text-white rounded-full shadow-lg dropdown-trigger">
+        <DropdownMenuTrigger className="flex items-center justify-center w-12 h-12 bg-primary-hover text-primary border-primary border-2 rounded-full shadow-lg dropdown-trigger">
           <Headset />
         </DropdownMenuTrigger>
         <DropdownMenuContent className="mt-2 w-48 bg-white shadow-lg rounded-lg p-4">

@@ -3,13 +3,12 @@ import { useState } from "react";
 import {
   Wifi,
   Coffee,
-  Bell,
   Utensils,
   Car,
-  ConciergeBell,
-  Dumbbell,
   Hotel,
   Tv,
+  Phone,
+  LockKeyhole,
   Wind,
   Plane,
 } from "lucide-react";
@@ -38,6 +37,11 @@ export default function Component() {
       description: t("freeWiFiDescription"),
     },
     {
+      name: t("phone"),
+      icon: Phone,
+      description: t("phoneDescription"),
+    },
+    {
       name: t("complimentaryBreakfast"),
       icon: Coffee,
       description: t("complimentaryBreakfastDescription"),
@@ -46,6 +50,11 @@ export default function Component() {
       name: t("restaurant"),
       icon: Utensils,
       description: t("restaurantDescription"),
+    },
+    {
+      name: t("casa"),
+      icon: LockKeyhole,
+      description: t("casaDescription"),
     },
     {
       name: "Airport Transfer",

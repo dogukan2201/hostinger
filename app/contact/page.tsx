@@ -1,3 +1,4 @@
+"use client";
 import Banner from "@/components/Banner";
 import ContactForm from "@/components/ContactForm";
 import { useTranslations } from "next-intl";
