@@ -44,7 +44,7 @@ async function RootLayout({
   return (
     <html lang={locale}>
       <Head>
-        <meta name="description" content="Bloomtalya otel" />
+        <meta name="description" content="Bloomtalya Pansiyon" />
         <meta
           name="keywords"
           content="Bloomtayla Pansiyon, antalya otel, antalya otel, antalya pansiyon"
