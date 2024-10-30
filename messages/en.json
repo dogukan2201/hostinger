@@ -23,7 +23,9 @@
     "q4": "Do you accept pets?",
     "a4": "Unfortunately, we cannot accept pets.",
     "q5": "What are the amenities nearby?",
-    "a5": "Bloomtalya Pansiyon offers a garden."
+    "a5": "Bloomtalya Pansiyon offers a garden.",
+    "q6": "What are the check-in and check-out times?",
+    "a6": "Our check-in time is 14.00 and our check-out time is 12.00."
   },
   "Rooms": {
     "title": "Our Rooms",

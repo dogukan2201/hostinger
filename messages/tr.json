@@ -23,7 +23,9 @@
     "q4": "Evcil hayvan kabul ediyor musunuz?",
     "a4": "Maalesef, evcil hayvan kabul edemiyoruz.",
     "q5": "Yakınlardaki olanaklar nelerdir?",
-    "a5": "Bloomtalya Pansiyon bahçe sunmaktadır."
+    "a5": "Bloomtalya Pansiyon bahçe sunmaktadır.",
+    "q6": "Check-in ve check-out saatleri nelerdir?",
+    "a6": "Check-in saatimiz 14.00 ve check-out saatimiz 12.00'dır."
   },
   "Rooms": {
     "title": "Odalarımız",
@@ -42,7 +44,7 @@
   },
   "About": {
     "title": "Hakkımızda",
-    "description": "Biz Kimiz?",
+    "description": "Biz Kimiz ?",
     "content": "Bahçe, ortak salon ve teras sunan Bloomtalya Hotel, Antalya'nın merkezinde Mermerli Plajı'na 2,1 km uzaklıkta yer almaktadır. Antalya Müzesi 4,9 km, Antalya Akvaryumu 6,4 km ve Antalya Aqualand 7,1 km uzaklıktadır. Resepsiyonu 24 saat açık olan tesis ayrıca havalimanı transferi, oda servisi ve tüm alanlarda ücretsiz WiFi sağlamaktadır.Tüm konaklama birimlerinde klima, düz ekran uydu TV, buzdolabı, kahve makinesi, duş, ücretsiz banyo malzemeleri ve çalışma masası vardır. Konaklama birimlerinde özel banyo, saç kurutma makinesi ve nevresimler mevcuttur.Otelin konukları açık büfe kahvaltının tadını çıkarabilirler.Bloomtalya Hotel yakınlarında Hadrian Kapısı, Antalya Saat Kulesi ve Eski Kent Yat Limanı gibi popüler cazibe merkezleri bulunmaktadır. En yakın havalimanı olan Antalya Havalimanı ise 7 km mesafededir.."
   },
   "Contact": {
@@ -91,7 +93,7 @@
     "email": "reservation@bloomtalyapansiyon.com.tr",
     "social": "Sosyal Medya",
     "contact": "İletişim",
-    "location": "Biz Neredeyiz?",
+    "location": "Biz Neredeyiz ?",
     "rights": "Tüm Hakları Saklıdır"
   },
   "Dropdown": {
