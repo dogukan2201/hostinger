@@ -51,7 +51,6 @@ const imageData = [
     alt: "Image 12",
   },
 ];
-
 export default function Component() {
   return (
     <main className="grid sm:grid-cols-3 gap-4 w-full max-w-6xl mx-auto p-4">
