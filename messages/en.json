@@ -1,7 +1,7 @@
 {
   "Navbar": {
     "title": "Your House In Antalya",
-    "home": "Bloomtalya Pansion",
+    "home": "Bloomtalya Pension",
     "about": "About",
     "gallery": "Gallery",
     "roomss": "Rooms",
@@ -14,7 +14,7 @@
   "Faq": {
     "title": "Frequently Asked Questions",
     "description": "If you have any further questions, please email.",
-    "q1": "Bloomtalya Pansiyon, free cancellation for refund does he offer?",
+    "q1": "Bloomtalya Pension, free cancellation for refund does he offer?",
     "a1": "Yes, fully refundable rooms are offered. Be sure to check their cancellation policy.",
     "q2": "Is there parking available?",
     "a2": "Yes, free self parking is available.",
@@ -23,7 +23,7 @@
     "q4": "Do you accept pets?",
     "a4": "Unfortunately, we cannot accept pets.",
     "q5": "What are the amenities nearby?",
-    "a5": "Bloomtalya Pansiyon offers a garden.",
+    "a5": "Bloomtalya Pension offers a garden.",
     "q6": "What are the check-in and check-out times?",
     "a6": "Our check-in time is 14.00 and our check-out time is 12.00.",
     "q7": "What are the breakfast hours?",
@@ -47,7 +47,7 @@
   "About": {
     "title": "About Us",
     "description": "Who Are We ?",
-    "content": "Offering a garden, shared lounge and terrace, Bloomtalya Pansion is located in the center of Antalya, 2.1 km from Mermerli Beach. 4.9 km from Antalya Museum, 6.4 km from Antalya Aquarium and 7.1 from Antalya Aqualand km away. The reception is open 24 hours a day and the property also provides airport transfer, room service and free WiFi in all areas. All accommodation units have air conditioning, a flat-screen satellite TV, a refrigerator, a coffee machine, a shower, free toiletries and a desk. A bathroom, a hairdryer and linens are available. Guests of the hotel can enjoy an open buffet breakfast. Popular attractions such as Hadrian's Gate, Antalya Clock Tower and Old City Marina are located near Bloomtalya Hotel. The nearest airport, Antalya Airport, is 7 km away."
+    "content": "Offering a garden, shared lounge and terrace, Bloomtalya Pension is located in the center of Antalya, 2.1 km from Mermerli Beach. 4.9 km from Antalya Museum, 6.4 km from Antalya Aquarium and 7.1 from Antalya Aqualand km away. The reception is open 24 hours a day and the property also provides airport transfer, room service and free WiFi in all areas. All accommodation units have air conditioning, a flat-screen satellite TV, a refrigerator, a coffee machine, a shower, free toiletries and a desk. A bathroom, a hairdryer and linens are available. Guests of the hotel can enjoy an open buffet breakfast. Popular attractions such as Hadrian's Gate, Antalya Clock Tower and Old City Marina are located near Bloomtalya Pension. The nearest airport, Antalya Airport, is 7 km away."
   },
   "Contact": {
     "title": "Contact",
@@ -67,16 +67,16 @@
     "messageRequired": "Message is required",
     "submitButton": "Send",
     "suggestionHeader": "Any suggestions or requests",
-    "suggestionText": "You can share your suggestions and requests regarding our pansion with us.\nYour feedback is valuable to us!",
+    "suggestionText": "You can share your suggestions and requests regarding our pension with us.\nYour feedback is valuable to us!",
     "suggestionMessage": "Your feedback is valuable to us!"
   },
   "Features": {
-    "title": "Pansion Features",
+    "title": "Pension Features",
     "reception": "7/24 Reception",
     "receptionDescription": "We have a 24/7 reception service",
     "airPort": "We have a paid shuttle service to the airport.",
     "freeWiFi": "Wi-Fi",
-    "freeWiFiDescription": "High-speed internet available throughout the pansion",
+    "freeWiFiDescription": "High-speed internet available throughout the pension",
     "complimentaryBreakfast": "Complimentary Breakfast",
     "complimentaryBreakfastDescription": "Start your day with a delicious breakfast on us",
     "restaurant": "Restaurant",
@@ -97,7 +97,7 @@
     "hairDryerDescription": "A hairdryer is available in every room."
   },
   "Footer": {
-    "copyright": "Copyright © 2023 Bloomtalya Pansion. All rights reserved.",
+    "copyright": "Copyright © 2023 Bloomtalya Pension. All rights reserved.",
     "address": "Kızıltoprak, 902. St. No: 2, Door No:1, 07300 Muratpaşa/Antalya, Turkey",
     "phone": "+90 (505) 534 30 30",
     "email": "reservation@bloomtalyapansiyon.com.tr",
@@ -151,7 +151,7 @@
     "reserveButton": "Make a Reservation"
   },
   "infoDropdown": {
-    "title": "Bloomtalya Pansiyon",
+    "title": "Bloomtalya Pension",
     "subtitle": "Your Hause In Antalya",
     "whatsapp": "WhatsApp Contact",
     "email": "Send Email",
