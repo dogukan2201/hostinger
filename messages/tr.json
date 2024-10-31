@@ -47,7 +47,7 @@
   "About": {
     "title": "Hakkımızda",
     "description": "Biz Kimiz ?",
-    "content": "Bahçe, ortak salon ve teras sunan Bloomtalya Hotel, Antalya'nın merkezinde Mermerli Plajı'na 2,1 km uzaklıkta yer almaktadır. Antalya Müzesi 4,9 km, Antalya Akvaryumu 6,4 km ve Antalya Aqualand 7,1 km uzaklıktadır. Resepsiyonu 24 saat açık olan tesis ayrıca havalimanı transferi, oda servisi ve tüm alanlarda ücretsiz WiFi sağlamaktadır.Tüm konaklama birimlerinde klima, düz ekran uydu TV, buzdolabı, kahve makinesi, duş, ücretsiz banyo malzemeleri ve çalışma masası vardır. Konaklama birimlerinde özel banyo, saç kurutma makinesi ve nevresimler mevcuttur.Otelin konukları açık büfe kahvaltının tadını çıkarabilirler.Bloomtalya Hotel yakınlarında Hadrian Kapısı, Antalya Saat Kulesi ve Eski Kent Yat Limanı gibi popüler cazibe merkezleri bulunmaktadır. En yakın havalimanı olan Antalya Havalimanı ise 7 km mesafededir.."
+    "content": "Bahçe, ortak salon ve teras sunan Bloomtalya Pansiyon, Antalya'nın merkezinde Mermerli Plajı'na 2,1 km uzaklıkta yer almaktadır. Antalya Müzesi 4,9 km, Antalya Akvaryumu 6,4 km ve Antalya Aqualand 7,1 km uzaklıktadır. Resepsiyonu 24 saat açık olan tesis ayrıca havalimanı transferi, oda servisi ve tüm alanlarda ücretsiz WiFi sağlamaktadır.Tüm konaklama birimlerinde klima, düz ekran uydu TV, buzdolabı, kahve makinesi, duş, ücretsiz banyo malzemeleri ve çalışma masası vardır. Konaklama birimlerinde özel banyo, saç kurutma makinesi ve nevresimler mevcuttur.Otelin konukları açık büfe kahvaltının tadını çıkarabilirler.Bloomtalya Hotel yakınlarında Hadrian Kapısı, Antalya Saat Kulesi ve Eski Kent Yat Limanı gibi popüler cazibe merkezleri bulunmaktadır. En yakın havalimanı olan Antalya Havalimanı ise 7 km mesafededir.."
   },
   "Contact": {
     "title": "İletişim",
@@ -72,10 +72,10 @@
   },
   "Features": {
     "title": "Pansiyon Özellikleri",
-    "freeWiFi": "Wi-Fi",
     "airPort": "Havalimanına ücretli servisimiz mevcuttur",
     "reception": "7/24 Resepsiyon",
     "receptionDescription": "7/24 Resepsiyon hizmetimiz mevcuttur",
+    "freeWiFi": "Wi-Fi",
     "freeWiFiDescription": "Pansiyon genelinde yüksek hızlı internet",
     "complimentaryBreakfast": "Kahvaltı",
     "complimentaryBreakfastDescription": "Güne bizim ikramımız olan lezzetli bir kahvaltı ile başlayın",
@@ -83,7 +83,6 @@
     "restaurantDescription": "Yerel ve uluslararası lezzetler sunan restoran",
     "parking": "Otopark",
     "parkingDescription": "Güvenli otopark hizmetimiz mevcuttur",
-    "smartTv": "Akıllı TV",
     "coffeeMaker": "Çay/Kahve",
     "coffeeMakerDescription": "Her odada su ısıtıcısı ve ücretsiz çay-kahve seti mevcuttur",
     "casa": "Dijital Kasa",
@@ -92,6 +91,7 @@
     "phoneDescription": "Her odada telefon hizmetimiz vardır.",
     "hairDryer": "Saç Kurutma",
     "hairDryerDescription": "Her odada saç kurutma makinesi mevcuttur",
+    "smartTv": "Akıllı TV",
     "smartTvDescription": "Akıllı TV'lerde favori programlarınızı izleyin",
     "airConditioning": "Klima",
     "airConditioningDescription": "Konforunuz için tüm odalarda iklim kontrolü"

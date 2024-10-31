@@ -47,7 +47,7 @@
   "About": {
     "title": "About Us",
     "description": "Who Are We ?",
-    "content": "Offering a garden, shared lounge and terrace, Bloomtalya Hotel is located in the center of Antalya, 2.1 km from Mermerli Beach. 4.9 km from Antalya Museum, 6.4 km from Antalya Aquarium and 7.1 from Antalya Aqualand km away. The reception is open 24 hours a day and the property also provides airport transfer, room service and free WiFi in all areas. All accommodation units have air conditioning, a flat-screen satellite TV, a refrigerator, a coffee machine, a shower, free toiletries and a desk. A bathroom, a hairdryer and linens are available. Guests of the hotel can enjoy an open buffet breakfast. Popular attractions such as Hadrian's Gate, Antalya Clock Tower and Old City Marina are located near Bloomtalya Hotel. The nearest airport, Antalya Airport, is 7 km away."
+    "content": "Offering a garden, shared lounge and terrace, Bloomtalya Pansion is located in the center of Antalya, 2.1 km from Mermerli Beach. 4.9 km from Antalya Museum, 6.4 km from Antalya Aquarium and 7.1 from Antalya Aqualand km away. The reception is open 24 hours a day and the property also provides airport transfer, room service and free WiFi in all areas. All accommodation units have air conditioning, a flat-screen satellite TV, a refrigerator, a coffee machine, a shower, free toiletries and a desk. A bathroom, a hairdryer and linens are available. Guests of the hotel can enjoy an open buffet breakfast. Popular attractions such as Hadrian's Gate, Antalya Clock Tower and Old City Marina are located near Bloomtalya Hotel. The nearest airport, Antalya Airport, is 7 km away."
   },
   "Contact": {
     "title": "Contact",
@@ -72,10 +72,10 @@
   },
   "Features": {
     "title": "Pansion Features",
-    "freeWiFi": "Wi-Fi",
     "reception": "7/24 Reception",
     "receptionDescription": "We have a 24/7 reception service",
     "airPort": "We have a paid shuttle service to the airport.",
+    "freeWiFi": "Wi-Fi",
     "freeWiFiDescription": "High-speed internet available throughout the pansion",
     "complimentaryBreakfast": "Complimentary Breakfast",
     "complimentaryBreakfastDescription": "Start your day with a delicious breakfast on us",
@@ -83,13 +83,13 @@
     "restaurantDescription": "On-site restaurant serving local and international cuisine",
     "parking": "Parking",
     "parkingDescription": "Secure on-site parking for your convenience",
-    "smartTv": "Smart TV",
     "casa": "Digital Safe",
+    "casaDescription": "Digital safe is available in every room",
     "phone": "Phone",
+    "phoneDescription": "We have telephone service in every room.",
     "coffeeMaker": "Tea/Coffee",
     "coffeeMakerDescription": "Each room has a kettle and free tea and coffee set.",
-    "phoneDescription": "We have telephone service in every room.",
-    "casaDescription": "Digital safe is available in every room",
+    "smartTv": "Smart TV",
     "smartTvDescription": "Enjoy your favorite shows on our smart TVs",
     "airConditioning": "Air Conditioning",
     "airConditioningDescription": "Climate control in all rooms for your comfort",

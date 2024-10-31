@@ -22,7 +22,7 @@ const config = {
       secondary: "var(--font-urbanist)",
     },
     backgroundImage: {
-      hero: 'url("/assets/hero/bg.jpg")', //EFEKAN FOTO
+      hero: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/hero/bg.jpg")',
     },
     extend: {
       colors: {
