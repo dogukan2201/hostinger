@@ -16,7 +16,6 @@ const rooms = [
       "/standartPhoto/standart3.jpg",
     ],
   },
-  // Diğer oda tanımlarını burada ekleyebilirsiniz
 ];
 
 export default function RoomDetailPage() {
