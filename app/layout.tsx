@@ -25,7 +25,7 @@ const urbanist = Urbanist({
 
 export const metadata: Metadata = {
   title: "Bloomtalya Pansiyon",
-  description: "Bloomtalya otel",
+  description: "Bloomtalya Pansiyon",
   icons: {
     icon: "/assets/bloomtalya.png",
   },
