@@ -19,6 +19,8 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { useTranslations } from "next-intl";
+import { MdCoffeeMaker } from "react-icons/md";
+import { PiHairDryer } from "react-icons/pi";
 
 type Feature = {
   name: string;
@@ -35,6 +37,16 @@ export default function Component() {
       name: t("freeWiFi"),
       icon: Wifi,
       description: t("freeWiFiDescription"),
+    },
+    {
+      name: t("coffeeMaker"),
+      icon: MdCoffeeMaker,
+      description: t("coffeeMakerDescription"),
+    },
+    {
+      name: t("hairDryer"),
+      icon: PiHairDryer,
+      description: t("hairDryerDescription"),
     },
     {
       name: t("phone"),

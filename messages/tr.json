@@ -25,7 +25,9 @@
     "q5": "Yakınlardaki olanaklar nelerdir?",
     "a5": "Bloomtalya Pansiyon bahçe sunmaktadır.",
     "q6": "Check-in ve check-out saatleri nelerdir?",
-    "a6": "Check-in saatimiz 14.00 ve check-out saatimiz 12.00'dır."
+    "a6": "Check-in saatimiz 14.00 ve check-out saatimiz 12.00'dır.",
+    "q7": "Kahvaltı saatleri nelerdir?",
+    "a7": "Sabah 7.00-14.00 arasında kahvaltı mevcuttur."
   },
   "Rooms": {
     "title": "Odalarımız",
@@ -82,10 +84,14 @@
     "parking": "Otopark",
     "parkingDescription": "Güvenli otopark hizmetimiz mevcuttur",
     "smartTv": "Akıllı TV",
+    "coffeeMaker": "Çay/Kahve",
+    "coffeeMakerDescription": "Her odada su ısıtıcısı ve ücretsiz çay-kahve seti mevcuttur",
     "casa": "Dijital Kasa",
     "casaDescription": "Dijital kasa her odamızda mevcuttur",
     "phone": "Telefon",
-    "phoneDescription": "Her odada telefonun hizmetimiz vardır.",
+    "phoneDescription": "Her odada telefon hizmetimiz vardır.",
+    "hairDryer": "Saç Kurutma",
+    "hairDryerDescription": "Her odada saç kurutma makinesi mevcuttur",
     "smartTvDescription": "Akıllı TV'lerde favori programlarınızı izleyin",
     "airConditioning": "Klima",
     "airConditioningDescription": "Konforunuz için tüm odalarda iklim kontrolü"

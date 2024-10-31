@@ -25,7 +25,9 @@
     "q5": "What are the amenities nearby?",
     "a5": "Bloomtalya Pansiyon offers a garden.",
     "q6": "What are the check-in and check-out times?",
-    "a6": "Our check-in time is 14.00 and our check-out time is 12.00."
+    "a6": "Our check-in time is 14.00 and our check-out time is 12.00.",
+    "q7": "What are the breakfast hours?",
+    "a7": "Breakfast is available between 7.00 and 14.00"
   },
   "Rooms": {
     "title": "Our Rooms",
@@ -84,11 +86,15 @@
     "smartTv": "Smart TV",
     "casa": "Digital Safe",
     "phone": "Phone",
+    "coffeeMaker": "Tea/Coffee",
+    "coffeeMakerDescription": "Each room has a kettle and free tea and coffee set.",
     "phoneDescription": "We have telephone service in every room.",
     "casaDescription": "Digital safe is available in every room",
     "smartTvDescription": "Enjoy your favorite shows on our smart TVs",
     "airConditioning": "Air Conditioning",
-    "airConditioningDescription": "Climate control in all rooms for your comfort"
+    "airConditioningDescription": "Climate control in all rooms for your comfort",
+    "hairDryer": "Hair Dryer",
+    "hairDryerDescription": "A hairdryer is available in every room."
   },
   "Footer": {
     "copyright": "Copyright © 2023 Bloomtalya Pansion. All rights reserved.",

@@ -23,7 +23,7 @@ export default function Component() {
           </p>
         </div>
         <div className="space-y-4">
-          {[0, 1, 2, 3, 4, 5].map((index) => (
+          {[0, 1, 2, 3, 4, 5, 6].map((index) => (
             <div key={index} className="border rounded-lg overflow-hidden">
               <button
                 onClick={() => toggleCollapse(index)}
