@@ -22,7 +22,7 @@ const config = {
       secondary: "var(--font-urbanist)",
     },
     backgroundImage: {
-      hero: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/hero/bg.jpg")',
+      hero: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/hero/heroBg.webp")',
     },
     extend: {
       colors: {
