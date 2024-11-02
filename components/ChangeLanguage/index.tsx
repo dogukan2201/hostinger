@@ -2,25 +2,30 @@
 
 import React, { useState, useEffect } from "react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { getUserLocale, setUserLocale } from "@/services/locale";
+import { useLocale, useTranslations } from 'next-intl';
+import { usePathname, useRouter } from 'next-intl/client';
+
 
 type Locale = "en" | "tr";
 
 export default function ChangeLanguage() {
   const [currentLocale, setCurrentLocale] = useState<Locale>("tr");
+  const locale = useLocale();
+    const router = useRouter();
+    const pathname = usePathname();
+    useEffect(() => {
+      // URL'deki locale değiştiğinde `currentLocale` güncelleniyor
+      setCurrentLocale(locale as Locale);
+    }, [locale]);
+  
 
   const changeLanguage = async (lang: Locale) => {
-    setCurrentLocale(lang);
-    await setUserLocale(lang);
+    
+    router.replace(pathname, { locale: lang });
+    
   };
 
-  useEffect(() => {
-    const fetchLocale = async () => {
-      const userLocale = await getUserLocale();
-      setCurrentLocale((userLocale as Locale) || "tr");
-    };
-    fetchLocale();
-  }, []);
+ 
 
   return (
     <ToggleGroup

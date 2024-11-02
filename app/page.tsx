@@ -1,18 +1,10 @@
-"use client";
-import Faq from "@/components/Faq";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Slider from "@/components/Slider";
 
-const Home = () => {
-  return (
-    <main>
-      <Hero />
-      <Slider />
-      <Faq />
-      <Features />
-    </main>
-  );
-};
+import {redirect} from 'next/navigation';
 
-export default Home;
+
+export default function RootPage() {
+  redirect('/tr');
+}
+
+
+

@@ -1,5 +1,5 @@
 import { Card, CardHeader } from "@/components/ui/card";
-import Link from "next/link";
+import Link from 'next-intl/link'
 const imageData = [
   {
     src: "/ekonomikPhoto/ekonomik1.jpeg",

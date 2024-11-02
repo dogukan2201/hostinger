@@ -1,7 +1,7 @@
 "use client";
 
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import Link from "next/link";
+import Link from 'next-intl/link'
 
 import { FaBars } from "react-icons/fa";
 import ChangeLanguage from "./ChangeLanguage";
