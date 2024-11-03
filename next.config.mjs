@@ -1,8 +1,18 @@
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output:'export',
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/tr",
+        permanent: true,
+      },
+    ];
+  },
   reactStrictMode: false,
 };
 

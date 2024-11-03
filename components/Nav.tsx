@@ -1,8 +1,7 @@
-
 import { RoomDropdownMenu } from "@/components/Dropdown";
 import ChangeLanguage from "./ChangeLanguage";
 import { useTranslations } from "next-intl";
-import Link from 'next-intl/link'
+import Link from "next-intl/link";
 
 const Nav = () => {
   const t = useTranslations("Navbar");

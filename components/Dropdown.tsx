@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import Link from 'next-intl/link'
+import Link from "next-intl/link";
 import {
   DropdownMenu,
   DropdownMenuContent,
