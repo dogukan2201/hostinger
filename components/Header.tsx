@@ -1,6 +1,5 @@
 "use client";
-import Link from 'next-intl/link'
-import Image from "next/image";
+import Link from "next-intl/link";
 
 // components
 import MobileNav from "./MobileNav";
@@ -18,11 +17,12 @@ const Header = () => {
         <div className="flex flex-col md:flex-row md:justify-between gap-6">
           <div className="flex items-center gap-5 justify-center xl:w-max">
             <Link href="/">
-              <Image
+              <img
                 src="/assets/bloomtalya.png"
-                width={180}
-                height={180}
                 alt="Logo"
+                style={{
+                  width: "180px",
+                }}
               />
             </Link>
             <div className="w-[1px] h-[40px] bg-gray-300"></div>

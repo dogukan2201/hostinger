@@ -1,7 +1,6 @@
-'use client'
+"use client";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
-import Link from 'next-intl/link'
+import Link from "next-intl/link";
 import {
   FaFacebook,
   FaInstagram,
@@ -45,11 +44,12 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
           <div className="flex flex-col justify-center items-center lg:items-start h-full text-center lg:text-left">
             <Link href="/">
-              <Image
+              <img
                 src="/assets/bloomtalya.png"
-                width={200}
-                height={200}
                 alt="Logo"
+                style={{
+                  width: "180px",
+                }}
               />
             </Link>
             <h1 className="text-white mt-4">

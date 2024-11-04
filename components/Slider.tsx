@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -41,11 +40,17 @@ export default function ImageSlider() {
         <Card className="overflow-hidden">
           <CardContent className="p-0">
             <div className="relative h-[400px]">
-              <Image
+              <img
                 src={images[currentIndex].src}
                 alt={images[currentIndex].alt}
-                layout="fill"
-                objectFit="cover"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                }}
               />
               <Button
                 variant="outline"

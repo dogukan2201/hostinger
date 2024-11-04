@@ -1,8 +1,7 @@
 "use client";
 import { TbArrowsMaximize, TbUsers } from "react-icons/tb";
 import { FaHandPointer } from "react-icons/fa";
-import Link from "next/link";
-import Image from "next/image";
+import Link from "next-intl/link";
 import { useTranslations } from "next-intl";
 
 const rooms = [
@@ -27,7 +26,7 @@ const rooms = [
   {
     id: "economicalRoom",
     price: 1375,
-    image: "/ekonomikPhoto/ekonomik1.jpeg",
+    image: "/ekonomikPhoto/ekonomik1.webp",
     maxGuests: 2,
   },
   {
@@ -58,11 +57,17 @@ const RoomsPage = () => {
               style={{ color: "#434343" }}
             >
               <div className="relative w-full h-[420px] mb-4 overflow-hidden cursor-pointer">
-                <Image
+                <img
                   src={room.image}
                   alt={`Oda ${room.id}`}
-                  fill
-                  style={{ objectFit: "cover" }}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                  }}
                 />
               </div>
               <div className="flex flex-col mb-4">
